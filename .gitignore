@@ -1,0 +1,7 @@
+aplicativo/node_modules/
+aplicativo/dist-pages/
+aplicativo/dist/
+aplicativo/work/
+work/
+*.log
+.DS_Store

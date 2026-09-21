@@ -1,0 +1,27 @@
+{
+  "name": "estoque-agroconfianca",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite --config vite.github-pages.config.ts",
+    "build": "vite build --config vite.github-pages.config.ts",
+    "inventory:preview": "node scripts/inventory-importer.mjs preview",
+    "test": "node --test tests/inventory-importer.test.mjs && npm run build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "6.0.2",
+    "vite": "8.0.13",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "xlsx": "0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}
