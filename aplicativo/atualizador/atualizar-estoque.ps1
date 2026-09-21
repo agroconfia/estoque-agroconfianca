@@ -66,11 +66,45 @@ function Analyze-Spreadsheet {
         ('  Alterados:            {0}' -f $script:Preview.counts.changed)
         ('  Removidos:            {0}' -f $script:Preview.counts.removed)
         ('  Sem alteração:        {0}' -f $script:Preview.counts.unchanged)
+        ''
+        'Ao publicar, somente os produtos desta nova planilha ficarão no site.'
     )
     if ($script:Preview.warnings.Count) {
         $summaryLines += ''
         $summaryLines += 'ATENÇÃO'
         $summaryLines += $script:Preview.warnings | ForEach-Object { '  - ' + $_ }
+    }
+    if ($script:Preview.counts.added -gt 0) {
+        $summaryLines += ''
+        $summaryLines += ('ITENS INCLUÍDOS ({0})' -f $script:Preview.counts.added)
+        foreach ($item in @($script:Preview.details.added)) {
+            $stock = [string]::Format($culture, '{0:N2}', [decimal]$item.stock)
+            $summaryLines += ('  + [{0}] {1}' -f $item.code, $item.description)
+            $summaryLines += ('      Estoque incluído: {0}' -f $stock)
+        }
+    }
+    if ($script:Preview.counts.changed -gt 0) {
+        $summaryLines += ''
+        $summaryLines += ('ITENS ALTERADOS ({0})' -f $script:Preview.counts.changed)
+        foreach ($item in @($script:Preview.details.changed)) {
+            $stockBefore = [string]::Format($culture, '{0:N2}', [decimal]$item.stockBefore)
+            $stockAfter = [string]::Format($culture, '{0:N2}', [decimal]$item.stockAfter)
+            $stockDifference = [string]::Format($culture, '{0:+0.00;-0.00;0.00}', [decimal]$item.stockDifference)
+            $summaryLines += ('  ~ [{0}] {1}' -f $item.code, $item.descriptionAfter)
+            $summaryLines += ('      Estoque: {0} -> {1}  (diferença: {2})' -f $stockBefore, $stockAfter, $stockDifference)
+            if ($item.descriptionBefore -ne $item.descriptionAfter) {
+                $summaryLines += ('      Descrição anterior: {0}' -f $item.descriptionBefore)
+            }
+        }
+    }
+    if ($script:Preview.counts.removed -gt 0) {
+        $summaryLines += ''
+        $summaryLines += ('ITENS REMOVIDOS ({0})' -f $script:Preview.counts.removed)
+        foreach ($item in @($script:Preview.details.removed)) {
+            $stock = [string]::Format($culture, '{0:N2}', [decimal]$item.stock)
+            $summaryLines += ('  - [{0}] {1}' -f $item.code, $item.description)
+            $summaryLines += ('      Estoque anterior: {0}' -f $stock)
+        }
     }
     $summary.Text = [string]::Join($lineBreak, $summaryLines)
     $publishButton.Enabled = [bool]$script:Preview.hasChanges
@@ -93,7 +127,7 @@ $title.Location = New-Object System.Drawing.Point(28, 22)
 $form.Controls.Add($title)
 
 $subtitle = New-Object System.Windows.Forms.Label
-$subtitle.Text = 'Use a planilha Fatu4184.XLS, confira as mudanças e publique no site.'
+$subtitle.Text = 'A nova planilha substitui a lista atual. Confira todas as mudanças antes de publicar.'
 $subtitle.AutoSize = $true
 $subtitle.ForeColor = [System.Drawing.Color]::FromArgb(92, 108, 98)
 $subtitle.Location = New-Object System.Drawing.Point(31, 62)
@@ -167,7 +201,7 @@ $chooseButton.Add_Click({
 })
 
 $publishButton.Add_Click({
-    $confirmation = [System.Windows.Forms.MessageBox]::Show('Publicar esta planilha no site? O histórico anterior continuará disponível no Git.', 'Confirmar publicação', 'YesNo', 'Question')
+    $confirmation = [System.Windows.Forms.MessageBox]::Show("Publicar esta planilha no site?`r`n`r`nA lista atual será integralmente substituída. Somente os produtos desta nova planilha permanecerão publicados.`r`n`r`nO histórico anterior continuará disponível no Git.", 'Confirmar publicação', 'YesNo', 'Question')
     if ($confirmation -ne 'Yes') { return }
     $publishButton.Enabled = $false
     $status.Text = 'Atualizando os dados e testando o site...'

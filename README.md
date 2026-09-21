@@ -4,6 +4,8 @@ Projeto de consulta por Código, Descrição e Estoque Físico, usando os valore
 
 Para atualizar, substitua `Fatu4184.XLS` mantendo a estrutura atual e execute `Atualizar Estoque.cmd`.
 
+Cada publicação substitui integralmente a lista anterior: somente os produtos presentes na nova planilha permanecem no site. Antes da confirmação, o atualizador mostra os itens incluídos, alterados e removidos, com suas quantidades.
+
 O site é publicado automaticamente no GitHub Pages após cada atualização enviada para a branch `main`.
 
 ## Instalar no celular

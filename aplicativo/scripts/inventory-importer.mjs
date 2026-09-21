@@ -79,13 +79,21 @@ export async function parseInventoryWorkbook(filePath) {
   return { items, sheetName, referenceDate };
 }
 
-function compareInventory(currentItems, nextItems) {
+export function compareInventory(currentItems, nextItems) {
   const current = new Map(currentItems.map((item) => [item.code, item]));
   const next = new Map(nextItems.map((item) => [item.code, item]));
   const added = nextItems.filter((item) => !current.has(item.code));
-  const changed = nextItems.filter((item) => {
-    const before = current.get(item.code);
-    return before && (before.description !== item.description || Math.abs(before.stock - item.stock) > 0.000001);
+  const changed = nextItems.flatMap((after) => {
+    const before = current.get(after.code);
+    if (!before || (before.description === after.description && Math.abs(before.stock - after.stock) <= 0.000001)) return [];
+    return [{
+      code: after.code,
+      descriptionBefore: before.description,
+      descriptionAfter: after.description,
+      stockBefore: before.stock,
+      stockAfter: after.stock,
+      stockDifference: Number((after.stock - before.stock).toFixed(6)),
+    }];
   });
   const removed = currentItems.filter((item) => !next.has(item.code));
   return { added, changed, removed, unchanged: nextItems.length - added.length - changed.length };
@@ -144,6 +152,11 @@ async function createPreview(filePath, inventoryPath, metadataPath) {
       negative: parsed.items.filter((item) => item.stock < 0).length,
     },
     totalStock: Number(parsed.items.reduce((total, item) => total + item.stock, 0).toFixed(2)),
+    details: {
+      added: difference.added,
+      changed: difference.changed,
+      removed: difference.removed,
+    },
     hasChanges: difference.added.length > 0 || difference.changed.length > 0 || difference.removed.length > 0 || currentMetadata.referenceDate !== parsed.referenceDate,
     warnings,
   };
