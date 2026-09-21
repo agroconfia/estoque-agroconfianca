@@ -70,6 +70,12 @@ export async function parseInventoryWorkbook(filePath) {
   }
 
   if (!items.length) throw new Error("A planilha não contém produtos para importar.");
+  items.sort((a, b) =>
+    a.description.localeCompare(b.description, "pt-BR", {
+      sensitivity: "base",
+      numeric: true,
+    }),
+  );
   return { items, sheetName, referenceDate };
 }
 
