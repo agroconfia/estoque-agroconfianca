@@ -1,6 +1,6 @@
 # Consulta de Estoque — AgroConfiança
 
-Página para consultar Código, Descrição e Estoque Físico `EF(+)` dos produtos.
+Página para consultar Código, Descrição e Estoque Físico dos produtos. Os valores são importados da coluna `PCNR(+)` da planilha.
 
 ## Atualizar o estoque
 
@@ -9,7 +9,7 @@ Página para consultar Código, Descrição e Estoque Físico `EF(+)` dos produt
 3. Clique em **Analisar Fatu4184.XLS**.
 4. Confira o resumo e clique em **Confirmar e publicar**.
 
-O atualizador separa automaticamente o código da descrição, usa a coluna `EF(+)`, testa o site, registra a alteração no Git e envia para o GitHub Pages.
+O atualizador separa automaticamente o código da descrição, usa a coluna `PCNR(+)`, testa o site, registra a alteração no Git e envia para o GitHub Pages.
 
 ## Desenvolvimento
 

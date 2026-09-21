@@ -1,6 +1,6 @@
 # Estoque AgroConfiança
 
-Projeto de consulta de estoque por Código, Descrição e Estoque Físico `EF(+)`.
+Projeto de consulta por Código, Descrição e Estoque Físico, usando os valores da coluna `PCNR(+)`.
 
 Para atualizar, substitua `Fatu4184.XLS` mantendo a estrutura atual e execute `Atualizar Estoque.cmd`.
 

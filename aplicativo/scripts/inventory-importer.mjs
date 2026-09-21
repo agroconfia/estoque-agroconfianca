@@ -31,17 +31,17 @@ function findHeader(rows) {
   for (let rowIndex = 0; rowIndex < Math.min(rows.length, 60); rowIndex += 1) {
     const headers = rows[rowIndex].map(normalizedHeader);
     const description = headers.indexOf("descricao do produto");
-    const stock = headers.indexOf("ef(+)");
+    const stock = headers.indexOf("pcnr(+)");
     if (description >= 0 && stock >= 0) return { rowIndex, description, stock };
   }
-  throw new Error("Não encontrei as colunas 'Descrição do produto' e 'EF(+)' na planilha.");
+  throw new Error("Não encontrei as colunas 'Descrição do produto' e 'PCNR(+)' na planilha.");
 }
 
 function parseNumber(value, rowNumber) {
   if (typeof value === "number" && Number.isFinite(value)) return value;
   const text = cleanText(value).replace(/\.(?=\d{3}(?:\D|$))/g, "").replace(",", ".");
   const number = Number(text);
-  if (!Number.isFinite(number)) throw new Error(`Linha ${rowNumber}: EF(+) inválido (${cleanText(value)}).`);
+  if (!Number.isFinite(number)) throw new Error(`Linha ${rowNumber}: PCNR(+) inválido (${cleanText(value)}).`);
   return number;
 }
 

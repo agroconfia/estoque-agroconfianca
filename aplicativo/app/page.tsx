@@ -106,9 +106,9 @@ export default function Home() {
           <small>{summary.positive} com saldo disponível</small>
         </article>
         <article>
-          <span>EF(+) total</span>
+          <span>Estoque Físico total</span>
           <strong>{formatStock(summary.totalStock)}</strong>
-          <small>estoque físico em unidades básicas</small>
+          <small>valores importados de PCNR(+)</small>
         </article>
         <article className={summary.negative ? "attention" : ""}>
           <span>Saldos negativos</span>
@@ -161,7 +161,7 @@ export default function Home() {
               <tr>
                 <th>Código</th>
                 <th>Descrição</th>
-                <th className="stock-column">EF(+)</th>
+                <th className="stock-column">Estoque Físico</th>
               </tr>
             </thead>
             <tbody>
@@ -169,7 +169,7 @@ export default function Home() {
                 <tr key={item.code}>
                   <td data-label="Código"><span className="code">{item.code}</span></td>
                   <td data-label="Descrição">{item.description}</td>
-                  <td data-label="EF(+)" className={`stock ${item.stock < 0 ? "negative" : item.stock === 0 ? "zero" : "positive"}`}>
+                  <td data-label="Estoque Físico" className={`stock ${item.stock < 0 ? "negative" : item.stock === 0 ? "zero" : "positive"}`}>
                     {formatStock(item.stock)}
                   </td>
                 </tr>
@@ -193,7 +193,7 @@ export default function Home() {
 
       <footer>
         <img src={assetUrl("agroconfianca-colorida.png")} alt="AgroConfiança" />
-        <p>Consulta baseada no relatório de estoque físico EF(+).</p>
+        <p>Estoque Físico baseado nos valores da coluna PCNR(+).</p>
       </footer>
     </main>
   );

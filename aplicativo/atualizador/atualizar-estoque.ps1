@@ -55,7 +55,7 @@ Produtos na planilha: $($script:Preview.counts.next)
 Com saldo: $($script:Preview.counts.positive)
 Zerados: $($script:Preview.counts.zero)
 Negativos: $($script:Preview.counts.negative)
-EF(+) total: $($script:Preview.totalStock)
+Estoque Físico total (PCNR+): $($script:Preview.totalStock)
 
 Incluídos: $($script:Preview.counts.added)
 Alterados: $($script:Preview.counts.changed)
