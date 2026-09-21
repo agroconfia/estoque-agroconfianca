@@ -1,4 +1,4 @@
-Add-Type -AssemblyName System.Windows.Forms
+﻿Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 [System.Windows.Forms.Application]::EnableVisualStyles()
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
@@ -46,22 +46,33 @@ function Analyze-Spreadsheet {
     }
     $script:Preview = Get-Content -Raw -LiteralPath $temporary | ConvertFrom-Json
     Remove-Item -LiteralPath $temporary -Force
-    $warnings = if ($script:Preview.warnings.Count) { "`r`n`r`nATENÇÃO:`r`n- " + ($script:Preview.warnings -join "`r`n- ") } else { '' }
-    $summary.Text = @"
-Arquivo: $([System.IO.Path]::GetFileName($script:SelectedFile))
-Data de referência: $($script:Preview.referenceDate.next)
-
-Produtos na planilha: $($script:Preview.counts.next)
-Com saldo: $($script:Preview.counts.positive)
-Zerados: $($script:Preview.counts.zero)
-Negativos: $($script:Preview.counts.negative)
-Estoque Físico total (PCNR+): $($script:Preview.totalStock)
-
-Incluídos: $($script:Preview.counts.added)
-Alterados: $($script:Preview.counts.changed)
-Removidos: $($script:Preview.counts.removed)
-Sem alteração: $($script:Preview.counts.unchanged)$warnings
-"@
+    $lineBreak = [Environment]::NewLine
+    $culture = [System.Globalization.CultureInfo]::GetCultureInfo('pt-BR')
+    $totalStock = [string]::Format($culture, '{0:N2}', [decimal]$script:Preview.totalStock)
+    $summaryLines = @(
+        'ARQUIVO ANALISADO'
+        ('  Nome:                 {0}' -f [System.IO.Path]::GetFileName($script:SelectedFile))
+        ('  Data de referência:   {0}' -f $script:Preview.referenceDate.next)
+        ''
+        'RESUMO DO ESTOQUE'
+        ('  Produtos:             {0}' -f $script:Preview.counts.next)
+        ('  Com saldo:            {0}' -f $script:Preview.counts.positive)
+        ('  Zerados:              {0}' -f $script:Preview.counts.zero)
+        ('  Negativos:            {0}' -f $script:Preview.counts.negative)
+        ('  Estoque Físico total: {0}  (PCNR+)' -f $totalStock)
+        ''
+        'ALTERAÇÕES DESTA ATUALIZAÇÃO'
+        ('  Incluídos:            {0}' -f $script:Preview.counts.added)
+        ('  Alterados:            {0}' -f $script:Preview.counts.changed)
+        ('  Removidos:            {0}' -f $script:Preview.counts.removed)
+        ('  Sem alteração:        {0}' -f $script:Preview.counts.unchanged)
+    )
+    if ($script:Preview.warnings.Count) {
+        $summaryLines += ''
+        $summaryLines += 'ATENÇÃO'
+        $summaryLines += $script:Preview.warnings | ForEach-Object { '  - ' + $_ }
+    }
+    $summary.Text = [string]::Join($lineBreak, $summaryLines)
     $publishButton.Enabled = [bool]$script:Preview.hasChanges
     $status.Text = if ($script:Preview.hasChanges) { 'Análise concluída. Confira o resumo e publique.' } else { 'A planilha já está publicada sem alterações.' }
 }

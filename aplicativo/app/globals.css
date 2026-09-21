@@ -22,9 +22,17 @@ button { -webkit-tap-highlight-color: transparent; }
 .topbar-inner { width: min(1180px, calc(100% - 40px)); min-height: 76px; margin: 0 auto; display: flex; align-items: center; gap: 18px; }
 .topbar img { width: 180px; height: auto; display: block; }
 .topbar-divider { width: 1px; height: 34px; background: rgba(255,255,255,.28); }
-.topbar-inner div { display: flex; flex-direction: column; gap: 3px; }
+.topbar-title { display: flex; flex-direction: column; gap: 3px; }
 .topbar-inner strong { font-size: 15px; }
-.topbar-inner div span { color: rgba(255,255,255,.68); font-size: 11px; }
+.topbar-title span { color: rgba(255,255,255,.68); font-size: 11px; }
+.install-button { margin-left: auto; min-height: 40px; display: inline-flex; align-items: center; gap: 8px; padding: 0 15px; border: 1px solid rgba(255,255,255,.32); border-radius: 10px; color: white; background: rgba(255,255,255,.1); font-size: 12px; font-weight: 800; cursor: pointer; }
+.install-button:hover { background: rgba(255,255,255,.18); }
+.install-button span { font-size: 18px; line-height: 1; }
+.install-guide { width: min(1180px, calc(100% - 40px)); margin: 16px auto 0; display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 14px 16px; border: 1px solid #cbdabf; border-radius: 12px; color: var(--green); background: var(--soft-green); }
+.install-guide div { display: flex; flex-direction: column; gap: 3px; }
+.install-guide strong { font-size: 13px; }
+.install-guide span { color: var(--muted); font-size: 12px; line-height: 1.4; }
+.install-guide button { flex: 0 0 auto; width: 32px; height: 32px; border: 0; border-radius: 50%; color: var(--green); background: rgba(7,92,45,.08); font-size: 20px; cursor: pointer; }
 
 .hero { width: min(1180px, calc(100% - 40px)); margin: 0 auto; padding: 52px 0 30px; display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; }
 .eyebrow { margin: 0 0 9px; color: var(--green-2); font-size: 11px; font-weight: 850; letter-spacing: .14em; text-transform: uppercase; }
@@ -89,7 +97,9 @@ footer p { margin: 0; font-size: 11px; }
 @media (max-width: 600px) {
   .topbar-inner { width: calc(100% - 30px); min-height: 70px; }
   .topbar img { width: 154px; }
-  .topbar-divider, .topbar-inner div { display: none; }
+  .topbar-divider, .topbar-title { display: none; }
+  .install-button { min-height: 38px; padding: 0 11px; font-size: 11px; }
+  .install-guide { width: calc(100% - 30px); }
   .hero, .summary, .workspace { width: calc(100% - 30px); }
   .hero { padding: 30px 0 23px; }
   .hero h1 { font-size: 41px; }

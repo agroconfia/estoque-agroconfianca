@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import inventory from "./data/inventory.json";
 import metadata from "./data/inventory-meta.json";
 
@@ -9,6 +9,11 @@ type Product = {
 };
 
 type Filter = "all" | "positive" | "zero" | "negative";
+
+type InstallPromptEvent = Event & {
+  prompt: () => Promise<void>;
+  userChoice: Promise<{ outcome: "accepted" | "dismissed" }>;
+};
 
 const products = inventory as Product[];
 const assetUrl = (name: string) => `${import.meta.env.BASE_URL}${name}`;
@@ -43,6 +48,28 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
   const [visible, setVisible] = useState(80);
+  const [installPrompt, setInstallPrompt] = useState<InstallPromptEvent | null>(null);
+  const [installed, setInstalled] = useState(false);
+  const [showInstallHelp, setShowInstallHelp] = useState(false);
+
+  useEffect(() => {
+    setInstalled(window.matchMedia("(display-mode: standalone)").matches);
+    const capturePrompt = (event: Event) => {
+      event.preventDefault();
+      setInstallPrompt(event as InstallPromptEvent);
+    };
+    const confirmInstallation = () => {
+      setInstalled(true);
+      setInstallPrompt(null);
+      setShowInstallHelp(false);
+    };
+    window.addEventListener("beforeinstallprompt", capturePrompt);
+    window.addEventListener("appinstalled", confirmInstallation);
+    return () => {
+      window.removeEventListener("beforeinstallprompt", capturePrompt);
+      window.removeEventListener("appinstalled", confirmInstallation);
+    };
+  }, []);
 
   const summary = useMemo(
     () => ({
@@ -74,18 +101,45 @@ export default function Home() {
     setVisible(80);
   }
 
+  async function installApp() {
+    if (!installPrompt) {
+      setShowInstallHelp(true);
+      return;
+    }
+    await installPrompt.prompt();
+    const choice = await installPrompt.userChoice;
+    if (choice.outcome === "accepted") setInstalled(true);
+    setInstallPrompt(null);
+  }
+
   return (
     <main>
       <header className="topbar">
         <div className="topbar-inner">
           <img src={assetUrl("agroconfianca-branca.png")} alt="AgroConfiança" />
           <span className="topbar-divider" />
-          <div>
+          <div className="topbar-title">
             <strong>Consulta de Estoque</strong>
             <span>Código, descrição e estoque físico</span>
           </div>
+          {!installed && (
+            <button className="install-button" type="button" onClick={installApp}>
+              <span aria-hidden="true">↓</span>
+              Instalar no celular
+            </button>
+          )}
         </div>
       </header>
+
+      {showInstallHelp && !installed && (
+        <aside className="install-guide" aria-live="polite">
+          <div>
+            <strong>Instale a consulta no celular</strong>
+            <span>Abra o menu do navegador e escolha “Instalar aplicativo” ou “Adicionar à tela inicial”.</span>
+          </div>
+          <button type="button" onClick={() => setShowInstallHelp(false)} aria-label="Fechar instrução de instalação">×</button>
+        </aside>
+      )}
 
       <section className="hero">
         <div>

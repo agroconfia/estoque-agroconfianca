@@ -11,6 +11,10 @@ Página para consultar Código, Descrição e Estoque Físico dos produtos. Os v
 
 O atualizador separa automaticamente o código da descrição, usa a coluna `PCNR(+)`, testa o site, registra a alteração no Git e envia para o GitHub Pages.
 
+## Instalar no celular
+
+Abra o site no celular e toque em **Instalar no celular**. Se necessário, use a opção **Instalar aplicativo** ou **Adicionar à tela inicial** no menu do navegador. O aplicativo abre em uma janela própria e mantém a última consulta disponível mesmo sem conexão.
+
 ## Desenvolvimento
 
 ```bash

@@ -5,3 +5,7 @@ Projeto de consulta por Código, Descrição e Estoque Físico, usando os valore
 Para atualizar, substitua `Fatu4184.XLS` mantendo a estrutura atual e execute `Atualizar Estoque.cmd`.
 
 O site é publicado automaticamente no GitHub Pages após cada atualização enviada para a branch `main`.
+
+## Instalar no celular
+
+Abra o site no celular e toque em **Instalar no celular**. Se o navegador não exibir a confirmação automática, abra o menu e escolha **Instalar aplicativo** ou **Adicionar à tela inicial**.
