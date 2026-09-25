@@ -197,7 +197,7 @@
   {
     "code": "0002190",
     "description": "AURORA 400 EC - 5 L",
-    "stock": 0
+    "stock": 450
   },
   {
     "code": "0001483",
@@ -212,7 +212,7 @@
   {
     "code": "0001629",
     "description": "BAZUKA (METOMIL) 216 SL - 20L",
-    "stock": 0
+    "stock": 10800
   },
   {
     "code": "0000746",
@@ -223,6 +223,11 @@
     "code": "0004873",
     "description": "BIG RED - 10 L",
     "stock": 300
+  },
+  {
+    "code": "0005574",
+    "description": "BIOACAO BAC 1000",
+    "stock": 1
   },
   {
     "code": "0001321",
@@ -352,7 +357,7 @@
   {
     "code": "0005813",
     "description": "CLETODIM BRILLIANCE 240 EC - 20 L",
-    "stock": 7980
+    "stock": 7480
   },
   {
     "code": "0005206",
@@ -622,7 +627,7 @@
   {
     "code": "0005847",
     "description": "GLIFOSATO PRECISO XK 540 SL - 20L",
-    "stock": 0
+    "stock": 15280
   },
   {
     "code": "0005428",
@@ -647,7 +652,7 @@
   {
     "code": "0005844",
     "description": "GLUFE 200SL (GLUFOSINATE DE SAL AMONIO) - 20",
-    "stock": 0
+    "stock": 10080
   },
   {
     "code": "0005526",
@@ -662,7 +667,7 @@
   {
     "code": "0005617",
     "description": "GLUFOSINATO TARBOX 850 SG - 5KG",
-    "stock": 2000
+    "stock": 1745
   },
   {
     "code": "0005556",
@@ -707,7 +712,7 @@
   {
     "code": "0001189",
     "description": "HERO - 5 L",
-    "stock": 1275
+    "stock": 4175
   },
   {
     "code": "0005220",
@@ -962,7 +967,7 @@
   {
     "code": "0001190",
     "description": "MUSTANG 350 EC - 5 L",
-    "stock": 85
+    "stock": 2385
   },
   {
     "code": "0004915",
@@ -1012,7 +1017,7 @@
   {
     "code": "0005037",
     "description": "ONSUVA - 5 L",
-    "stock": 5
+    "stock": 805
   },
   {
     "code": "0005023",
@@ -1038,6 +1043,11 @@
     "code": "0002016",
     "description": "OXICLEAN (LAVA TANQUE) - 1 L",
     "stock": 24
+  },
+  {
+    "code": "0004437",
+    "description": "OXIMULT- 1 L",
+    "stock": 0
   },
   {
     "code": "0002744",
@@ -1112,17 +1122,17 @@
   {
     "code": "0001482",
     "description": "PREMIO - 1 L",
-    "stock": 0
+    "stock": 525
   },
   {
     "code": "0003208",
     "description": "PREMIO - 5 L",
-    "stock": 835
+    "stock": 1035
   },
   {
     "code": "0004947",
     "description": "PREMIO STAR - 5 L",
-    "stock": 600
+    "stock": 1600
   },
   {
     "code": "0005777",
@@ -1172,7 +1182,7 @@
   {
     "code": "0005343",
     "description": "PROVILAR - 5 L",
-    "stock": 0
+    "stock": 3300
   },
   {
     "code": "0005750",
@@ -1197,7 +1207,7 @@
   {
     "code": "0001946",
     "description": "QUIMIFOL BORO - 25KG",
-    "stock": 10625
+    "stock": 11625
   },
   {
     "code": "0004848",
@@ -1257,7 +1267,7 @@
   {
     "code": "0001955",
     "description": "QUIMIFOL PREMIUM - 5 L",
-    "stock": 1165
+    "stock": 1075
   },
   {
     "code": "0005043",
@@ -1287,12 +1297,12 @@
   {
     "code": "0005282",
     "description": "QUIMIFOL VIP MILHO - 25 KG",
-    "stock": 0
+    "stock": 400
   },
   {
     "code": "0001938",
     "description": "QUIMIORGEN 20N - 20 L",
-    "stock": 1160
+    "stock": 1360
   },
   {
     "code": "0004913",
@@ -1342,7 +1352,7 @@
   {
     "code": "0005254",
     "description": "REATOR 360 CS (CLOMAZONA) - 20 L",
-    "stock": 5520
+    "stock": 12520
   },
   {
     "code": "0004912",
@@ -1363,6 +1373,11 @@
     "code": "0001201",
     "description": "SEED+ TS - 5 L",
     "stock": 60
+  },
+  {
+    "code": "0005880",
+    "description": "SEIV (METOMINOSTROBINA+PROTIOCONAZOL) - 10L",
+    "stock": 0
   },
   {
     "code": "0004807",
@@ -1500,8 +1515,8 @@
     "stock": 0
   },
   {
-    "code": "0005710",
-    "description": "SEM SOJA TRIUNFO 71IX72RSF I2X RAPTOR - BAG",
+    "code": "0005495",
+    "description": "SEM SOJA TRIUNFO 67I68RSF IPRO GUEPARDO DERM",
     "stock": 0
   },
   {
@@ -1520,23 +1535,8 @@
     "stock": 0
   },
   {
-    "code": "0005708",
-    "description": "SEM SOJA TRIUNFO 75IX78RSF I2X APICE - BAG 5M",
-    "stock": 0
-  },
-  {
-    "code": "0005704",
-    "description": "SEM SOJA TRIUNFO 77IX78RSF I2X COBRE - BAG 5M",
-    "stock": 0
-  },
-  {
     "code": "0005705",
     "description": "SEM SOJA TRIUNFO 77IX78RSF I2X COBRE DERM - B",
-    "stock": 0
-  },
-  {
-    "code": "0005706",
-    "description": "SEM SOJA TRIUNFO 79K82RSF CE MITICA - BAG 5MI",
     "stock": 0
   },
   {
@@ -1555,33 +1555,13 @@
     "stock": 0
   },
   {
-    "code": "0005702",
-    "description": "SEM SOJA TRIUNFO 80IX78RSF I2X HERA - BAG 5MI",
+    "code": "0005737",
+    "description": "SEM SOJA TRIUNFO 85K84RSF CE CRUZADA DERM - B",
     "stock": 0
   },
   {
-    "code": "0005432",
-    "description": "SEM SOJA TRIUNFO 84I86 RSF IPRO DOMINIO BAG 5",
-    "stock": 0
-  },
-  {
-    "code": "0005700",
-    "description": "SEM SOJA TRIUNFO 85K84RSF CE CRUZADA - BAG 5",
-    "stock": 0
-  },
-  {
-    "code": "0005714",
-    "description": "SEM SOJA TRIUNFO C2705 CE - BAG 5MI",
-    "stock": 0
-  },
-  {
-    "code": "0005642",
-    "description": "SEM SOJA TRIUNFO NEO 790 IPRO - BAG 5MI",
-    "stock": 0
-  },
-  {
-    "code": "0005712",
-    "description": "SEM SOJA TRIUNFO ST 78KA42 CE - BAG 5MI",
+    "code": "0005878",
+    "description": "SEM SOJA TRIUNFO NEO820 IPRO DERM 50 - BAG 5",
     "stock": 0
   },
   {
@@ -1625,6 +1605,11 @@
     "stock": 40
   },
   {
+    "code": "0005667",
+    "description": "SLT BAC AMYLO - 5 LT",
+    "stock": 5
+  },
+  {
     "code": "0004765",
     "description": "SONDA HT- 20 L",
     "stock": 1800
@@ -1647,12 +1632,12 @@
   {
     "code": "0001261",
     "description": "STONE 525SC - 5 L",
-    "stock": 0
+    "stock": 200
   },
   {
     "code": "0005761",
     "description": "SULBAN (CLORIMUROM) 250 WG - 2 KG",
-    "stock": 760
+    "stock": 744
   },
   {
     "code": "0002046",
@@ -1687,7 +1672,7 @@
   {
     "code": "99999995",
     "description": "TALISMAN 200 EC - 5 L",
-    "stock": 8230
+    "stock": 14230
   },
   {
     "code": "0001187",
@@ -1837,7 +1822,7 @@
   {
     "code": "0005443",
     "description": "VERDICT ULTRA - 5 L",
-    "stock": 880
+    "stock": 840
   },
   {
     "code": "0001173",
