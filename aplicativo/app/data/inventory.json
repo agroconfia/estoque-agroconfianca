@@ -212,7 +212,7 @@
   {
     "code": "0001629",
     "description": "BAZUKA (METOMIL) 216 SL - 20L",
-    "stock": 10780
+    "stock": 10760
   },
   {
     "code": "0000746",
@@ -272,7 +272,7 @@
   {
     "code": "0005784",
     "description": "BOWE GOPLAN - 5 L",
-    "stock": 0
+    "stock": 500
   },
   {
     "code": "0005830",
@@ -352,7 +352,7 @@
   {
     "code": "0005813",
     "description": "CLETODIM BRILLIANCE 240 EC - 20 L",
-    "stock": 6480
+    "stock": 5480
   },
   {
     "code": "0005206",
@@ -387,7 +387,7 @@
   {
     "code": "0004219",
     "description": "CONCORDE RN - 20 L",
-    "stock": 1020
+    "stock": 780
   },
   {
     "code": "0003868",
@@ -492,7 +492,7 @@
   {
     "code": "0005756",
     "description": "ELIPSE (ACETA 250 + BIFENTRINA 250 WG) - 10 K",
-    "stock": 2550
+    "stock": 4550
   },
   {
     "code": "0004217",
@@ -607,7 +607,7 @@
   {
     "code": "0005573",
     "description": "GLIFOSATO GLIFA 720 WG - PCT 20KG",
-    "stock": 41400
+    "stock": 38400
   },
   {
     "code": "0000189",
@@ -747,7 +747,7 @@
   {
     "code": "0005882",
     "description": "INOCULANTE - ACTBIO BRADY EL 3L (60 DS)",
-    "stock": 15120
+    "stock": 6600
   },
   {
     "code": "0005288",
@@ -812,7 +812,7 @@
   {
     "code": "0005466",
     "description": "KARREGA GOPLAN - 05 KG",
-    "stock": 570
+    "stock": 1070
   },
   {
     "code": "0004212",
@@ -912,12 +912,12 @@
   {
     "code": "0005785",
     "description": "MAGGO GOPLAN - 20L",
-    "stock": 4400
+    "stock": 6000
   },
   {
     "code": "0005760",
     "description": "MAGMA 500 SC (FLUMIOXAZINA) - 5 L",
-    "stock": 510
+    "stock": 490
   },
   {
     "code": "0003681",
@@ -963,6 +963,11 @@
     "code": "0005468",
     "description": "MONICO GOPLAN - 5 L",
     "stock": 0
+  },
+  {
+    "code": "0005883",
+    "description": "MONICO GOPLAN - 10 L",
+    "stock": 1000
   },
   {
     "code": "0001190",
@@ -1147,7 +1152,7 @@
   {
     "code": "0004513",
     "description": "PROFOL BORO N - 25 L",
-    "stock": 3850
+    "stock": 3400
   },
   {
     "code": "0004218",
@@ -1187,7 +1192,7 @@
   {
     "code": "0005750",
     "description": "PYROX (IMAZETAPIR 200G FLUMIOXAZINA 100G - 5",
-    "stock": 290
+    "stock": 50
   },
   {
     "code": "0003809",
@@ -1425,11 +1430,6 @@
     "stock": 0
   },
   {
-    "code": "0005193",
-    "description": "SEM SOJA A. ROSSO 67I68 RSF GUEPARDO IPRO DER",
-    "stock": 0
-  },
-  {
     "code": "0005448",
     "description": "SEM SOJA A. ROSSO 74K76 RSF TORMENTA CE D50+L",
     "stock": 0
@@ -1520,11 +1520,6 @@
     "stock": 0
   },
   {
-    "code": "0005794",
-    "description": "SEM SOJA TRIUNFO 74K76 RSF TORMENTA CE - BAG",
-    "stock": 0
-  },
-  {
     "code": "0005599",
     "description": "SEM SOJA TRIUNFO 74K76 RSF TORMENTA CE DERM 5",
     "stock": 0
@@ -1580,6 +1575,11 @@
     "stock": 0
   },
   {
+    "code": "0005336",
+    "description": "SEM SORGO MORGAN MG2220 (CRUISER+MAXIM+ BENEF",
+    "stock": 0
+  },
+  {
     "code": "0005852",
     "description": "SHARK (CLORPIRIF0S) 480 EC - 20L",
     "stock": 3000
@@ -1597,7 +1597,7 @@
   {
     "code": "0004948",
     "description": "SIMANTO (SCUDERO ULTRA) - 5 L",
-    "stock": 3335
+    "stock": 5510
   },
   {
     "code": "0005469",
@@ -1707,7 +1707,7 @@
   {
     "code": "0005783",
     "description": "THERNO GOPLAN - 5 L",
-    "stock": 0
+    "stock": 550
   },
   {
     "code": "0004209",
@@ -1747,7 +1747,7 @@
   {
     "code": "0004215",
     "description": "TRANSLOK - 10 KG",
-    "stock": 7450
+    "stock": 6550
   },
   {
     "code": "0005881",
@@ -1802,7 +1802,7 @@
   {
     "code": "0004992",
     "description": "UP! SEEDS RN - 5 L",
-    "stock": 775
+    "stock": 740
   },
   {
     "code": "0005048",
@@ -1837,7 +1837,7 @@
   {
     "code": "0001406",
     "description": "VIANCE 240 EC (CLETODIM) - 20 L",
-    "stock": 760
+    "stock": 560
   },
   {
     "code": "0003460",
@@ -1852,7 +1852,7 @@
   {
     "code": "0005570",
     "description": "WANDA GOPLAN - 5 L",
-    "stock": 0
+    "stock": 180
   },
   {
     "code": "0005672",
@@ -1897,6 +1897,6 @@
   {
     "code": "0005557",
     "description": "ZOSPOT GOPLAN - 3 L",
-    "stock": 0
+    "stock": 504
   }
 ]
