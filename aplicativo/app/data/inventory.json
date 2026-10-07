@@ -2,7 +2,7 @@
   {
     "code": "0005602",
     "description": "2,4D 806 SL CROTECT - 20 L",
-    "stock": 920
+    "stock": 540
   },
   {
     "code": "0003158",
@@ -37,7 +37,7 @@
   {
     "code": "0004787",
     "description": "ACROSS (AZOXISTROBINA + DIFENOCONAZOL) - 20 L",
-    "stock": 13320
+    "stock": 13200
   },
   {
     "code": "0001265",
@@ -142,12 +142,12 @@
   {
     "code": "0004789",
     "description": "APRESA (FLUMIOXAZINA + S-METOLACLORO ) - 20 L",
-    "stock": 1460
+    "stock": 1220
   },
   {
     "code": "0003458",
     "description": "APROACH POWER - 10 L",
-    "stock": 6140
+    "stock": 6100
   },
   {
     "code": "0005122",
@@ -167,7 +167,7 @@
   {
     "code": "0004794",
     "description": "ARMERO BR - 20 L",
-    "stock": 17220
+    "stock": 17140
   },
   {
     "code": "0005150",
@@ -187,22 +187,22 @@
   {
     "code": "0005062",
     "description": "ATRAZINA ULTIMATO 500SC - 20 L",
-    "stock": 5400
+    "stock": 5260
   },
   {
     "code": "0005237",
     "description": "ATRIVO SL (DIQUAT) - 20 L",
-    "stock": 800
+    "stock": 740
   },
   {
     "code": "0001188",
     "description": "AURORA 400 EC - 1 L",
-    "stock": 87
+    "stock": 73
   },
   {
     "code": "0002190",
     "description": "AURORA 400 EC - 5 L",
-    "stock": 205
+    "stock": 200
   },
   {
     "code": "0001483",
@@ -212,12 +212,12 @@
   {
     "code": "0004795",
     "description": "AZIMUT - 20 L",
-    "stock": 4000
+    "stock": 3980
   },
   {
     "code": "0001629",
     "description": "BAZUKA (METOMIL) 216 SL - 20L",
-    "stock": 10760
+    "stock": 10680
   },
   {
     "code": "0000746",
@@ -237,7 +237,7 @@
   {
     "code": "0004797",
     "description": "BLINDADO TOV - 20 L",
-    "stock": 600
+    "stock": 500
   },
   {
     "code": "0003813",
@@ -262,7 +262,7 @@
   {
     "code": "0005430",
     "description": "BORO GOPLAN - 20L",
-    "stock": 0
+    "stock": 4000
   },
   {
     "code": "0000036",
@@ -272,7 +272,7 @@
   {
     "code": "0005551",
     "description": "BOROTOP (OCTABORATO DE SODIO 20,5%) - 25 KG",
-    "stock": 700
+    "stock": 275
   },
   {
     "code": "0005784",
@@ -297,7 +297,7 @@
   {
     "code": "0003795",
     "description": "BRAVENGIS - 20 L",
-    "stock": 11040
+    "stock": 10580
   },
   {
     "code": "0001696",
@@ -347,7 +347,7 @@
   {
     "code": "0000296",
     "description": "CERTEZA N - 5 L",
-    "stock": 600
+    "stock": 590
   },
   {
     "code": "0005695",
@@ -372,17 +372,12 @@
   {
     "code": "0005600",
     "description": "CLOROTALONIL 720 SINO AGRI - 20LT",
-    "stock": 10080
-  },
-  {
-    "code": "0005238",
-    "description": "CLORPIRIFOS (GHARDA) - 20L",
-    "stock": 0
+    "stock": 9980
   },
   {
     "code": "0004219",
     "description": "CONCORDE RN - 20 L",
-    "stock": 520
+    "stock": 460
   },
   {
     "code": "0003868",
@@ -412,7 +407,7 @@
   {
     "code": "0005649",
     "description": "CRUZARO TRICLOPIR 480EC - 20 L",
-    "stock": 2960
+    "stock": 2540
   },
   {
     "code": "0005308",
@@ -427,7 +422,7 @@
   {
     "code": "0005305",
     "description": "CT - GREEN AD - 20 L",
-    "stock": 2080
+    "stock": 2060
   },
   {
     "code": "0005307",
@@ -457,7 +452,7 @@
   {
     "code": "0001284",
     "description": "DERMACOR - 5 L",
-    "stock": 160
+    "stock": 155
   },
   {
     "code": "0005251",
@@ -477,7 +472,7 @@
   {
     "code": "0005460",
     "description": "DIFO DIFENOCONAZOL 250 EC - 5 L",
-    "stock": 220
+    "stock": 205
   },
   {
     "code": "0005560",
@@ -487,7 +482,7 @@
   {
     "code": "0005756",
     "description": "ELIPSE (ACETA 250 + BIFENTRINA 250 WG) - 10 K",
-    "stock": 4480
+    "stock": 4400
   },
   {
     "code": "0004217",
@@ -497,7 +492,7 @@
   {
     "code": "0000318",
     "description": "EXALT - 5 L",
-    "stock": 280
+    "stock": 235
   },
   {
     "code": "0002212",
@@ -507,7 +502,7 @@
   {
     "code": "0002253",
     "description": "EXPEDITION - 5 L",
-    "stock": 980
+    "stock": 885
   },
   {
     "code": "0005835",
@@ -557,12 +552,12 @@
   {
     "code": "0005561",
     "description": "FORCEPS ( ACETAMIPRID 250 + BIFENTRINA 250) (",
-    "stock": 80
+    "stock": 20
   },
   {
     "code": "0001341",
     "description": "FUSAO EC - BB/ 10L",
-    "stock": 2120
+    "stock": 1990
   },
   {
     "code": "0005553",
@@ -590,6 +585,11 @@
     "stock": 365
   },
   {
+    "code": "0005238",
+    "description": "GHARDA 48 EC (CLORPIRIFOS) - 20L",
+    "stock": 0
+  },
+  {
     "code": "0005159",
     "description": "GIFT (MANCOZEB LÍQUIDO) - 10 L",
     "stock": 11610
@@ -597,7 +597,7 @@
   {
     "code": "0005573",
     "description": "GLIFOSATO GLIFA 720 WG - PCT 20KG",
-    "stock": 36820
+    "stock": 36340
   },
   {
     "code": "0000189",
@@ -612,7 +612,7 @@
   {
     "code": "0005847",
     "description": "GLIFOSATO PRECISO XK 540 SL - 20L",
-    "stock": 11280
+    "stock": 11260
   },
   {
     "code": "0005428",
@@ -642,12 +642,12 @@
   {
     "code": "0005353",
     "description": "GLUFOSINATO LOYER 200 SL - 20L",
-    "stock": 3940
+    "stock": 3080
   },
   {
     "code": "0005617",
     "description": "GLUFOSINATO TARBOX 850 SG - 5KG",
-    "stock": 725
+    "stock": 705
   },
   {
     "code": "0005556",
@@ -672,7 +672,7 @@
   {
     "code": "0005143",
     "description": "HELPER DESSEK ADJ - 5 L",
-    "stock": 565
+    "stock": 395
   },
   {
     "code": "0004207",
@@ -687,7 +687,7 @@
   {
     "code": "0001189",
     "description": "HERO - 5 L",
-    "stock": 4015
+    "stock": 3985
   },
   {
     "code": "0005220",
@@ -697,7 +697,7 @@
   {
     "code": "0001375",
     "description": "IHAROL GOLD - 20 L",
-    "stock": 16140
+    "stock": 16040
   },
   {
     "code": "0003931",
@@ -725,11 +725,6 @@
     "stock": 100
   },
   {
-    "code": "0005882",
-    "description": "INOCULANTE - ACTBIO BRADY EL 3L (60 DS)",
-    "stock": 1920
-  },
-  {
     "code": "0005544",
     "description": "INOCULANTE - ACTBIO X - AZOS 3L(30 DS)",
     "stock": 0
@@ -742,12 +737,12 @@
   {
     "code": "0005810",
     "description": "INOCULANTE - BIOLYC L BRADY 3 L (30 DS)",
-    "stock": 0
+    "stock": 90960
   },
   {
     "code": "0001510",
     "description": "INOCULANTE - NODUGRAM L (AZOSPIRILLUM) 3 L (",
-    "stock": 1500
+    "stock": 10470
   },
   {
     "code": "99999986",
@@ -792,7 +787,7 @@
   {
     "code": "0004212",
     "description": "KELLUS BLINDEX RN - 3 KG",
-    "stock": 942
+    "stock": 906
   },
   {
     "code": "0004213",
@@ -852,17 +847,17 @@
   {
     "code": "0005840",
     "description": "LANEX 800 WG (FIPRONIL) - 5 KG",
-    "stock": 95
+    "stock": 75
   },
   {
     "code": "0005755",
     "description": "LEAF OIL 98 (OLEO MINERAL) - 20 L",
-    "stock": 1820
+    "stock": 1740
   },
   {
     "code": "0005639",
     "description": "LEME 960 EC S-METOLACLORO (CLOROACETANILIDA)",
-    "stock": 80
+    "stock": 0
   },
   {
     "code": "0005843",
@@ -872,7 +867,7 @@
   {
     "code": "0005644",
     "description": "LUBA (CLORPIRIFOS) 480 EC - 20L",
-    "stock": 1540
+    "stock": 1140
   },
   {
     "code": "0005205",
@@ -892,7 +887,7 @@
   {
     "code": "0005760",
     "description": "MAGMA 500 SC (FLUMIOXAZINA) - 5 L",
-    "stock": 485
+    "stock": 465
   },
   {
     "code": "0003681",
@@ -927,7 +922,7 @@
   {
     "code": "0005758",
     "description": "MILHA (METSULFUROM 600 WG) - PCT 0,200 KG",
-    "stock": 50
+    "stock": 48
   },
   {
     "code": "0005140",
@@ -947,7 +942,7 @@
   {
     "code": "0001190",
     "description": "MUSTANG 350 EC - 5 L",
-    "stock": 2330
+    "stock": 2280
   },
   {
     "code": "0004915",
@@ -962,7 +957,7 @@
   {
     "code": "0001939",
     "description": "NIPHOKAM 585 - 20 L",
-    "stock": 5600
+    "stock": 5360
   },
   {
     "code": "0005501",
@@ -997,12 +992,12 @@
   {
     "code": "0005037",
     "description": "ONSUVA - 5 L",
-    "stock": 700
+    "stock": 685
   },
   {
     "code": "0005023",
     "description": "ONSUVA - 10 L",
-    "stock": 2970
+    "stock": 2930
   },
   {
     "code": "0003464",
@@ -1042,7 +1037,7 @@
   {
     "code": "0005661",
     "description": "PAMPA (PICLORAM 64 + 2,4D) - 20 L",
-    "stock": 20000
+    "stock": 19800
   },
   {
     "code": "0005156",
@@ -1127,7 +1122,7 @@
   {
     "code": "0004513",
     "description": "PROFOL BORO N - 25 L",
-    "stock": 3400
+    "stock": 3200
   },
   {
     "code": "0004218",
@@ -1147,7 +1142,7 @@
   {
     "code": "0005445",
     "description": "PROFOL PRODUTIVIDADE ADT - 12 KG",
-    "stock": 25812
+    "stock": 25692
   },
   {
     "code": "0005875",
@@ -1162,7 +1157,7 @@
   {
     "code": "0005343",
     "description": "PROVILAR - 5 L",
-    "stock": 3195
+    "stock": 3180
   },
   {
     "code": "0005750",
@@ -1187,7 +1182,7 @@
   {
     "code": "0001946",
     "description": "QUIMIFOL BORO - 25KG",
-    "stock": 8775
+    "stock": 8375
   },
   {
     "code": "0004848",
@@ -1197,7 +1192,7 @@
   {
     "code": "0001947",
     "description": "QUIMIFOL CERRADO - 20 L",
-    "stock": 2260
+    "stock": 2140
   },
   {
     "code": "0002136",
@@ -1212,7 +1207,7 @@
   {
     "code": "0003734",
     "description": "QUIMIFOL IMPACTO - 5 L",
-    "stock": 745
+    "stock": 590
   },
   {
     "code": "0005856",
@@ -1222,7 +1217,7 @@
   {
     "code": "0001950",
     "description": "QUIMIFOL K 40 - 25KG",
-    "stock": 12100
+    "stock": 12050
   },
   {
     "code": "0002470",
@@ -1237,7 +1232,7 @@
   {
     "code": "0002779",
     "description": "QUIMIFOL P 30 W - 20 L",
-    "stock": 440
+    "stock": 400
   },
   {
     "code": "0001954",
@@ -1247,7 +1242,7 @@
   {
     "code": "0001955",
     "description": "QUIMIFOL PREMIUM - 5 L",
-    "stock": 1005
+    "stock": 880
   },
   {
     "code": "0005043",
@@ -1267,12 +1262,12 @@
   {
     "code": "0001952",
     "description": "QUIMIFOL TITANIUM S - 20 L",
-    "stock": 1520
+    "stock": 1280
   },
   {
     "code": "0003468",
     "description": "QUIMIFOL VIP CERRADO - 25 KG",
-    "stock": 9525
+    "stock": 9400
   },
   {
     "code": "0005282",
@@ -1312,7 +1307,7 @@
   {
     "code": "0003865",
     "description": "RAYNITRO - 5 L",
-    "stock": 955
+    "stock": 940
   },
   {
     "code": "0005218",
@@ -1341,8 +1336,13 @@
   },
   {
     "code": "0005791",
-    "description": "ROFEN FULL EC 100 (LUFENURON) - 20 L",
-    "stock": 500
+    "description": "ROFEN FULL EC 100 (LUFENURON) - 05 L",
+    "stock": 480
+  },
+  {
+    "code": "0005888",
+    "description": "ROFEN FULL EC 100 (LUFENURON) - 5 L",
+    "stock": 0
   },
   {
     "code": "0001447",
@@ -1360,11 +1360,6 @@
     "stock": 20
   },
   {
-    "code": "0004807",
-    "description": "SEIZER 100 EC (BIFENTRINA) - 5 L",
-    "stock": 10
-  },
-  {
     "code": "0005636",
     "description": "SEM MILHO MG 540 PWU PONCHO BAG 3MI SEM",
     "stock": 0
@@ -1377,7 +1372,7 @@
   {
     "code": "0005270",
     "description": "SEM MILHO MORGAN 540 PWU PONCHO",
-    "stock": 0
+    "stock": 250
   },
   {
     "code": "0005345",
@@ -1387,7 +1382,7 @@
   {
     "code": "0004396",
     "description": "SEM MILHO MORGAN 607 PWU PONCHO",
-    "stock": 0
+    "stock": 500
   },
   {
     "code": "0004958",
@@ -1397,7 +1392,7 @@
   {
     "code": "0005790",
     "description": "SEM MILHO MORGAN 655 PWU PONCHO",
-    "stock": 0
+    "stock": 100
   },
   {
     "code": "0005846",
@@ -1427,11 +1422,6 @@
   {
     "code": "0003595",
     "description": "SEM SOJA FAVA NEO 790 IPRO- BAG 5 MI",
-    "stock": 0
-  },
-  {
-    "code": "0005379",
-    "description": "SEM SOJA FAVA NEO 800 I2X DERM 50 - BAG 5 MI",
     "stock": 0
   },
   {
@@ -1572,7 +1562,7 @@
   {
     "code": "0004948",
     "description": "SIMANTO (SCUDERO ULTRA) - 5 L",
-    "stock": 5510
+    "stock": 5420
   },
   {
     "code": "0005469",
@@ -1612,7 +1602,7 @@
   {
     "code": "0005761",
     "description": "SULBAN (CLORIMUROM) 250 WG - 2 KG",
-    "stock": 698
+    "stock": 688
   },
   {
     "code": "0002046",
@@ -1647,7 +1637,7 @@
   {
     "code": "99999995",
     "description": "TALISMAN 200 EC - 5 L",
-    "stock": 13805
+    "stock": 13580
   },
   {
     "code": "0001187",
@@ -1657,12 +1647,12 @@
   {
     "code": "0005312",
     "description": "TALSTAR 400 EC (BIFENTRINA) - 5 L",
-    "stock": 40
+    "stock": 25
   },
   {
     "code": "0005212",
     "description": "TARGA MAX HT - 5 L",
-    "stock": 1825
+    "stock": 1420
   },
   {
     "code": "0005470",
@@ -1687,12 +1677,12 @@
   {
     "code": "0005783",
     "description": "THERNO GOPLAN - 5 L",
-    "stock": 535
+    "stock": 485
   },
   {
     "code": "0004209",
     "description": "TONUS - 3 KG",
-    "stock": 2826
+    "stock": 2808
   },
   {
     "code": "0004254",
@@ -1702,7 +1692,7 @@
   {
     "code": "0005865",
     "description": "TOPMIX EVOLUTION 00-24-00 YARA - BAG 1.000 KG",
-    "stock": 0
+    "stock": 100
   },
   {
     "code": "0003465",
@@ -1727,7 +1717,7 @@
   {
     "code": "0004215",
     "description": "TRANSLOK - 10 KG",
-    "stock": 6550
+    "stock": 6370
   },
   {
     "code": "0005881",
@@ -1777,7 +1767,7 @@
   {
     "code": "0004992",
     "description": "UP! SEEDS RN - 5 L",
-    "stock": 655
+    "stock": 560
   },
   {
     "code": "0005048",
@@ -1797,12 +1787,12 @@
   {
     "code": "0005443",
     "description": "VERDICT ULTRA - 5 L",
-    "stock": 730
+    "stock": 685
   },
   {
     "code": "0001173",
     "description": "VESSARYA NEW - 10 L",
-    "stock": 6440
+    "stock": 6410
   },
   {
     "code": "0004786",
@@ -1812,12 +1802,12 @@
   {
     "code": "0001406",
     "description": "VIANCE 240 EC (CLETODIM) - 20 L",
-    "stock": 260
+    "stock": 180
   },
   {
     "code": "0003460",
     "description": "VIOVAN - 10 L",
-    "stock": 2130
+    "stock": 2100
   },
   {
     "code": "0004756",
@@ -1827,12 +1817,12 @@
   {
     "code": "0005570",
     "description": "WANDA GOPLAN - 5 L",
-    "stock": 25
+    "stock": 805
   },
   {
     "code": "0005672",
     "description": "WEXITE (ACEFATO) 970G/KG - 5KG",
-    "stock": 7570
+    "stock": 7540
   },
   {
     "code": "0005662",
