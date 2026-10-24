@@ -5,6 +5,7 @@ import metadata from "./data/inventory-meta.json";
 type Product = {
   code: string;
   description: string;
+  supplier: string;
   calculatedStock: number;
   efPlus: number;
   pcnrPlus: number;
@@ -17,9 +18,9 @@ type Product = {
   vaMinus: number;
 };
 
-type MetricKey = Exclude<keyof Product, "code" | "description">;
+type MetricKey = Exclude<keyof Product, "code" | "description" | "supplier">;
 
-type Filter = "all" | "positive" | "zero" | "negative";
+type Filter = "all" | "positive" | "zero" | "negative" | "supplier";
 
 type InstallPromptEvent = Event & {
   prompt: () => Promise<void>;
@@ -27,12 +28,16 @@ type InstallPromptEvent = Event & {
 };
 
 const products = inventory as Product[];
+const supplierOptions = Array.from(new Set(products.map((item) => item.supplier))).sort((a, b) =>
+  a.localeCompare(b, "pt-BR", { sensitivity: "base", numeric: true }),
+);
 const assetUrl = (name: string) => `${import.meta.env.BASE_URL}${name}`;
 const filters: Array<{ id: Filter; label: string }> = [
   { id: "all", label: "Todos" },
   { id: "positive", label: "Com saldo" },
   { id: "zero", label: "Zerados" },
   { id: "negative", label: "Negativos" },
+  { id: "supplier", label: "Fornecedor" },
 ];
 const metricColumns: Array<{ key: MetricKey; label: string; primary?: boolean }> = [
   { key: "calculatedStock", label: "Estoque calculado" },
@@ -70,6 +75,7 @@ function formatDate(value?: string) {
 export default function Home() {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
+  const [selectedSupplier, setSelectedSupplier] = useState(supplierOptions[0] ?? "");
   const [visible, setVisible] = useState(80);
   const [installPrompt, setInstallPrompt] = useState<InstallPromptEvent | null>(null);
   const [installed, setInstalled] = useState(false);
@@ -107,15 +113,16 @@ export default function Home() {
   const filtered = useMemo(() => {
     const search = normalize(query.trim());
     return products.filter((item) => {
-      const matchesSearch = !search || normalize(`${item.code} ${item.description}`).includes(search);
+      const matchesSearch = !search || normalize(`${item.code} ${item.description} ${item.supplier}`).includes(search);
       const matchesFilter =
         filter === "all" ||
         (filter === "positive" && item.pcnrPlus > 0) ||
         (filter === "zero" && item.pcnrPlus === 0) ||
-        (filter === "negative" && item.pcnrPlus < 0);
+        (filter === "negative" && item.pcnrPlus < 0) ||
+        (filter === "supplier" && item.supplier === selectedSupplier);
       return matchesSearch && matchesFilter;
     });
-  }, [query, filter]);
+  }, [query, filter, selectedSupplier]);
 
   const shown = filtered.slice(0, visible);
 
@@ -228,6 +235,25 @@ export default function Home() {
           </div>
         </div>
 
+        {filter === "supplier" && (
+          <div className="supplier-filter">
+            <label htmlFor="supplier-select">Fornecedor</label>
+            <select
+              id="supplier-select"
+              value={selectedSupplier}
+              onChange={(event) => {
+                setSelectedSupplier(event.target.value);
+                setVisible(80);
+              }}
+            >
+              {supplierOptions.map((supplier) => (
+                <option key={supplier} value={supplier}>{supplier}</option>
+              ))}
+            </select>
+            <span>{filtered.length} {filtered.length === 1 ? "produto" : "produtos"} deste fornecedor</span>
+          </div>
+        )}
+
         <div className="result-line">
           <strong>{filtered.length}</strong> {filtered.length === 1 ? "produto encontrado" : "produtos encontrados"}
         </div>
@@ -247,7 +273,10 @@ export default function Home() {
               {shown.map((item) => (
                 <tr key={item.code}>
                   <td data-label="Código"><span className="code">{item.code}</span></td>
-                  <td data-label="Descrição">{item.description}</td>
+                  <td data-label="Descrição">
+                    <span className="product-description">{item.description}</span>
+                    <small className="supplier-name">{item.supplier}</small>
+                  </td>
                   {metricColumns.map((metric) => {
                     const value = item[metric.key];
                     return (
@@ -282,6 +311,7 @@ export default function Home() {
                 </strong>
               </div>
               <h2>{item.description}</h2>
+              <p className="product-supplier">{item.supplier}</p>
               <dl>
                 {metricColumns.map((metric) => (
                   <div key={metric.key} className={metric.primary ? "primary-metric" : ""}>

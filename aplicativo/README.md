@@ -4,6 +4,8 @@ Página para consultar Código, Descrição e todas as posições de estoque dos
 
 No relatório de origem, cada valor está uma coluna à direita de seu título. O importador aplica essa correção automaticamente. O filtro e o total de Estoque Físico usam o valor corrigido de `PCNR(+)`.
 
+A aba **Fornecedor** usa a coluna `Razão Social` da planilha e permite consultar apenas os produtos do fornecedor selecionado.
+
 ## Atualizar o estoque
 
 1. Substitua `Fatu4184.XLS` na pasta principal pelo relatório mais recente, mantendo a mesma estrutura.

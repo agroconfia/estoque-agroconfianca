@@ -89,8 +89,8 @@ function Analyze-Spreadsheet {
         foreach ($item in @($script:Preview.details.changed)) {
             $summaryLines += ('  ~ [{0}] {1}' -f $item.code, $item.descriptionAfter)
             foreach ($change in @($item.changes)) {
-                if ($change.field -eq 'description') {
-                    $summaryLines += ('      Descrição: {0} -> {1}' -f $change.before, $change.after)
+                if ($change.field -eq 'description' -or $change.field -eq 'supplier') {
+                    $summaryLines += ('      {0}: {1} -> {2}' -f $change.label, $change.before, $change.after)
                 }
                 else {
                     $valueBefore = [string]::Format($culture, '{0:N2}', [decimal]$change.before)

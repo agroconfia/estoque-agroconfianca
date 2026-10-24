@@ -44,11 +44,12 @@ function findHeader(rows) {
   for (let rowIndex = 0; rowIndex < Math.min(rows.length, 60); rowIndex += 1) {
     const headers = rows[rowIndex].map(normalizedHeader);
     const description = headers.indexOf("descricao do produto");
+    const supplier = headers.indexOf("razao social");
     const metricColumns = Object.fromEntries(
       inventoryMetrics.map((metric) => [metric.key, headers.indexOf(metric.header) + 1]),
     );
     const hasAllMetrics = inventoryMetrics.every((metric) => metricColumns[metric.key] > 0);
-    if (description >= 0 && hasAllMetrics) return { rowIndex, description, metricColumns };
+    if (description >= 0 && supplier >= 0 && hasAllMetrics) return { rowIndex, description, supplier, metricColumns };
   }
   throw new Error("Não encontrei todas as colunas de estoque esperadas na planilha.");
 }
@@ -72,11 +73,14 @@ export async function parseInventoryWorkbook(filePath) {
   const items = [];
   const seen = new Map();
   const productPattern = /^\s*(\d+)\s*[-–]\s*(.+)$/;
+  let currentSupplier = "";
 
   for (let rowIndex = header.rowIndex + 1; rowIndex < rows.length; rowIndex += 1) {
+    const supplierCell = cleanText(rows[rowIndex][header.supplier]);
     const descriptionCell = cleanText(rows[rowIndex][header.description]);
     const match = descriptionCell.match(productPattern);
     if (!match) continue;
+    if (supplierCell) currentSupplier = supplierCell;
     const code = match[1].padStart(7, "0");
     const description = cleanText(match[2]);
     const metrics = Object.fromEntries(
@@ -87,7 +91,7 @@ export async function parseInventoryWorkbook(filePath) {
     );
     if (seen.has(code)) throw new Error(`Código duplicado nas linhas ${seen.get(code)} e ${rowIndex + 1}: ${code}.`);
     seen.set(code, rowIndex + 1);
-    items.push({ code, description, ...metrics });
+    items.push({ code, description, supplier: currentSupplier || "Fornecedor não informado", ...metrics });
   }
 
   if (!items.length) throw new Error("A planilha não contém produtos para importar.");
@@ -109,6 +113,7 @@ export function compareInventory(currentItems, nextItems) {
     if (!before) return [];
     const changes = [
       ...(before.description === after.description ? [] : [{ field: "description", label: "Descrição", before: before.description, after: after.description }]),
+      ...(before.supplier === after.supplier ? [] : [{ field: "supplier", label: "Fornecedor", before: before.supplier ?? "", after: after.supplier }]),
       ...inventoryMetrics.flatMap((metric) => {
         const beforeValue = Number(before[metric.key] ?? 0);
         const afterValue = Number(after[metric.key] ?? 0);
