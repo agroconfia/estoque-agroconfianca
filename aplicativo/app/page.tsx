@@ -5,8 +5,19 @@ import metadata from "./data/inventory-meta.json";
 type Product = {
   code: string;
   description: string;
-  stock: number;
+  calculatedStock: number;
+  efPlus: number;
+  pcnrPlus: number;
+  pvneMinus: number;
+  cfPlus: number;
+  vfMinus: number;
+  rdrMinus: number;
+  rdePlus: number;
+  caPlus: number;
+  vaMinus: number;
 };
+
+type MetricKey = Exclude<keyof Product, "code" | "description">;
 
 type Filter = "all" | "positive" | "zero" | "negative";
 
@@ -23,6 +34,18 @@ const filters: Array<{ id: Filter; label: string }> = [
   { id: "zero", label: "Zerados" },
   { id: "negative", label: "Negativos" },
 ];
+const metricColumns: Array<{ key: MetricKey; label: string; primary?: boolean }> = [
+  { key: "calculatedStock", label: "Estoque calculado" },
+  { key: "efPlus", label: "EF(+)" },
+  { key: "pcnrPlus", label: "PCNR(+)", primary: true },
+  { key: "pvneMinus", label: "PVNE(-)" },
+  { key: "cfPlus", label: "CF(+)" },
+  { key: "vfMinus", label: "VF(-)" },
+  { key: "rdrMinus", label: "RDR(-)" },
+  { key: "rdePlus", label: "RDE(+)" },
+  { key: "caPlus", label: "CA(+)" },
+  { key: "vaMinus", label: "VA(-)" },
+];
 
 function normalize(value: string) {
   return value
@@ -33,7 +56,7 @@ function normalize(value: string) {
 
 function formatStock(value: number) {
   return new Intl.NumberFormat("pt-BR", {
-    minimumFractionDigits: Number.isInteger(value) ? 0 : 2,
+    minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   }).format(value);
 }
@@ -73,10 +96,10 @@ export default function Home() {
 
   const summary = useMemo(
     () => ({
-      positive: products.filter((item) => item.stock > 0).length,
-      zero: products.filter((item) => item.stock === 0).length,
-      negative: products.filter((item) => item.stock < 0).length,
-      totalStock: products.reduce((total, item) => total + item.stock, 0),
+      positive: products.filter((item) => item.pcnrPlus > 0).length,
+      zero: products.filter((item) => item.pcnrPlus === 0).length,
+      negative: products.filter((item) => item.pcnrPlus < 0).length,
+      totalStock: products.reduce((total, item) => total + item.pcnrPlus, 0),
     }),
     [],
   );
@@ -87,9 +110,9 @@ export default function Home() {
       const matchesSearch = !search || normalize(`${item.code} ${item.description}`).includes(search);
       const matchesFilter =
         filter === "all" ||
-        (filter === "positive" && item.stock > 0) ||
-        (filter === "zero" && item.stock === 0) ||
-        (filter === "negative" && item.stock < 0);
+        (filter === "positive" && item.pcnrPlus > 0) ||
+        (filter === "zero" && item.pcnrPlus === 0) ||
+        (filter === "negative" && item.pcnrPlus < 0);
       return matchesSearch && matchesFilter;
     });
   }, [query, filter]);
@@ -120,7 +143,7 @@ export default function Home() {
           <span className="topbar-divider" />
           <div className="topbar-title">
             <strong>Consulta de Estoque</strong>
-            <span>Código, descrição e estoque físico</span>
+            <span>Código, descrição e todos os saldos</span>
           </div>
           {!installed && (
             <button className="install-button" type="button" onClick={installApp}>
@@ -145,7 +168,7 @@ export default function Home() {
         <div>
           <p className="eyebrow">AgroConfiança</p>
           <h1>Encontre um produto no estoque.</h1>
-          <p className="hero-copy">Pesquise pelo código ou por qualquer parte da descrição.</p>
+          <p className="hero-copy">Pesquise pelo código ou descrição e consulte todas as posições do produto.</p>
         </div>
         <div className="updated">
           <span className="updated-dot" />
@@ -162,7 +185,7 @@ export default function Home() {
         <article>
           <span>Estoque Físico total</span>
           <strong>{formatStock(summary.totalStock)}</strong>
-          <small>valores importados de PCNR(+)</small>
+          <small>valor corrigido da coluna PCNR(+)</small>
         </article>
         <article className={summary.negative ? "attention" : ""}>
           <span>Saldos negativos</span>
@@ -209,13 +232,15 @@ export default function Home() {
           <strong>{filtered.length}</strong> {filtered.length === 1 ? "produto encontrado" : "produtos encontrados"}
         </div>
 
-        <div className="table-wrap">
-          <table>
+        <div className="table-wrap desktop-products">
+          <table className="inventory-table">
             <thead>
               <tr>
                 <th>Código</th>
                 <th>Descrição</th>
-                <th className="stock-column">Estoque Físico</th>
+                {metricColumns.map((metric) => (
+                  <th key={metric.key} className={`metric-column ${metric.primary ? "primary-metric" : ""}`}>{metric.label}</th>
+                ))}
               </tr>
             </thead>
             <tbody>
@@ -223,13 +248,50 @@ export default function Home() {
                 <tr key={item.code}>
                   <td data-label="Código"><span className="code">{item.code}</span></td>
                   <td data-label="Descrição">{item.description}</td>
-                  <td data-label="Estoque Físico" className={`stock ${item.stock < 0 ? "negative" : item.stock === 0 ? "zero" : "positive"}`}>
-                    {formatStock(item.stock)}
-                  </td>
+                  {metricColumns.map((metric) => {
+                    const value = item[metric.key];
+                    return (
+                      <td
+                        key={metric.key}
+                        data-label={metric.label}
+                        className={`stock ${metric.primary ? "primary-metric" : ""} ${value < 0 ? "negative" : value === 0 ? "zero" : "positive"}`}
+                      >
+                        {formatStock(value)}
+                      </td>
+                    );
+                  })}
                 </tr>
               ))}
             </tbody>
           </table>
+          {!shown.length && (
+            <div className="empty">
+              <strong>Nenhum produto encontrado.</strong>
+              <span>Tente outro código ou descrição.</span>
+            </div>
+          )}
+        </div>
+
+        <div className="mobile-products">
+          {shown.map((item) => (
+            <article className="product-card" key={item.code}>
+              <div className="product-card-heading">
+                <span className="code">{item.code}</span>
+                <strong className={item.pcnrPlus < 0 ? "negative" : item.pcnrPlus === 0 ? "zero" : "positive"}>
+                  PCNR(+) {formatStock(item.pcnrPlus)}
+                </strong>
+              </div>
+              <h2>{item.description}</h2>
+              <dl>
+                {metricColumns.map((metric) => (
+                  <div key={metric.key} className={metric.primary ? "primary-metric" : ""}>
+                    <dt>{metric.label}</dt>
+                    <dd>{formatStock(item[metric.key])}</dd>
+                  </div>
+                ))}
+              </dl>
+            </article>
+          ))}
           {!shown.length && (
             <div className="empty">
               <strong>Nenhum produto encontrado.</strong>
@@ -247,7 +309,7 @@ export default function Home() {
 
       <footer>
         <img src={assetUrl("agroconfianca-colorida.png")} alt="AgroConfiança" />
-        <p>Estoque Físico baseado nos valores da coluna PCNR(+).</p>
+        <p>Estoque Físico baseado nos valores corrigidos de PCNR(+).</p>
       </footer>
     </main>
   );

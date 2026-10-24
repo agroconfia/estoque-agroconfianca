@@ -9,6 +9,19 @@ const appRoot = path.resolve(scriptDir, "..");
 const defaultInventoryPath = path.join(appRoot, "app", "data", "inventory.json");
 const defaultMetadataPath = path.join(appRoot, "app", "data", "inventory-meta.json");
 
+export const inventoryMetrics = [
+  { key: "calculatedStock", label: "Estoque calculado", header: "estoque calculado" },
+  { key: "efPlus", label: "EF(+)", header: "ef(+)" },
+  { key: "pcnrPlus", label: "PCNR(+)", header: "pcnr(+)" },
+  { key: "pvneMinus", label: "PVNE(-)", header: "pvne(-)" },
+  { key: "cfPlus", label: "CF(+)", header: "cf(+)" },
+  { key: "vfMinus", label: "VF(-)", header: "vf(-)" },
+  { key: "rdrMinus", label: "RDR(-)", header: "rdr(-)" },
+  { key: "rdePlus", label: "RDE(+)", header: "rde(+)" },
+  { key: "caPlus", label: "CA(+)", header: "ca(+)" },
+  { key: "vaMinus", label: "VA(-)", header: "va(-)" },
+];
+
 function cleanText(value) {
   return String(value ?? "").replace(/\s+/g, " ").trim();
 }
@@ -31,17 +44,20 @@ function findHeader(rows) {
   for (let rowIndex = 0; rowIndex < Math.min(rows.length, 60); rowIndex += 1) {
     const headers = rows[rowIndex].map(normalizedHeader);
     const description = headers.indexOf("descricao do produto");
-    const stock = headers.indexOf("pcnr(+)");
-    if (description >= 0 && stock >= 0) return { rowIndex, description, stock };
+    const metricColumns = Object.fromEntries(
+      inventoryMetrics.map((metric) => [metric.key, headers.indexOf(metric.header) + 1]),
+    );
+    const hasAllMetrics = inventoryMetrics.every((metric) => metricColumns[metric.key] > 0);
+    if (description >= 0 && hasAllMetrics) return { rowIndex, description, metricColumns };
   }
-  throw new Error("Não encontrei as colunas 'Descrição do produto' e 'PCNR(+)' na planilha.");
+  throw new Error("Não encontrei todas as colunas de estoque esperadas na planilha.");
 }
 
-function parseNumber(value, rowNumber) {
+function parseNumber(value, rowNumber, label) {
   if (typeof value === "number" && Number.isFinite(value)) return value;
   const text = cleanText(value).replace(/\.(?=\d{3}(?:\D|$))/g, "").replace(",", ".");
   const number = Number(text);
-  if (!Number.isFinite(number)) throw new Error(`Linha ${rowNumber}: PCNR(+) inválido (${cleanText(value)}).`);
+  if (!Number.isFinite(number)) throw new Error(`Linha ${rowNumber}: ${label} inválido (${cleanText(value)}).`);
   return number;
 }
 
@@ -63,10 +79,15 @@ export async function parseInventoryWorkbook(filePath) {
     if (!match) continue;
     const code = match[1].padStart(7, "0");
     const description = cleanText(match[2]);
-    const stock = Number(parseNumber(rows[rowIndex][header.stock], rowIndex + 1).toFixed(6));
+    const metrics = Object.fromEntries(
+      inventoryMetrics.map((metric) => [
+        metric.key,
+        Number(parseNumber(rows[rowIndex][header.metricColumns[metric.key]], rowIndex + 1, metric.label).toFixed(6)),
+      ]),
+    );
     if (seen.has(code)) throw new Error(`Código duplicado nas linhas ${seen.get(code)} e ${rowIndex + 1}: ${code}.`);
     seen.set(code, rowIndex + 1);
-    items.push({ code, description, stock });
+    items.push({ code, description, ...metrics });
   }
 
   if (!items.length) throw new Error("A planilha não contém produtos para importar.");
@@ -85,14 +106,28 @@ export function compareInventory(currentItems, nextItems) {
   const added = nextItems.filter((item) => !current.has(item.code));
   const changed = nextItems.flatMap((after) => {
     const before = current.get(after.code);
-    if (!before || (before.description === after.description && Math.abs(before.stock - after.stock) <= 0.000001)) return [];
+    if (!before) return [];
+    const changes = [
+      ...(before.description === after.description ? [] : [{ field: "description", label: "Descrição", before: before.description, after: after.description }]),
+      ...inventoryMetrics.flatMap((metric) => {
+        const beforeValue = Number(before[metric.key] ?? 0);
+        const afterValue = Number(after[metric.key] ?? 0);
+        if (Math.abs(beforeValue - afterValue) <= 0.000001) return [];
+        return [{
+          field: metric.key,
+          label: metric.label,
+          before: beforeValue,
+          after: afterValue,
+          difference: Number((afterValue - beforeValue).toFixed(6)),
+        }];
+      }),
+    ];
+    if (!changes.length) return [];
     return [{
       code: after.code,
       descriptionBefore: before.description,
       descriptionAfter: after.description,
-      stockBefore: before.stock,
-      stockAfter: after.stock,
-      stockDifference: Number((after.stock - before.stock).toFixed(6)),
+      changes,
     }];
   });
   const removed = currentItems.filter((item) => !next.has(item.code));
@@ -147,11 +182,11 @@ async function createPreview(filePath, inventoryPath, metadataPath) {
       added: difference.added.length,
       changed: difference.changed.length,
       removed: difference.removed.length,
-      positive: parsed.items.filter((item) => item.stock > 0).length,
-      zero: parsed.items.filter((item) => item.stock === 0).length,
-      negative: parsed.items.filter((item) => item.stock < 0).length,
+      positive: parsed.items.filter((item) => item.pcnrPlus > 0).length,
+      zero: parsed.items.filter((item) => item.pcnrPlus === 0).length,
+      negative: parsed.items.filter((item) => item.pcnrPlus < 0).length,
     },
-    totalStock: Number(parsed.items.reduce((total, item) => total + item.stock, 0).toFixed(2)),
+    totalStock: Number(parsed.items.reduce((total, item) => total + item.pcnrPlus, 0).toFixed(2)),
     details: {
       added: difference.added,
       changed: difference.changed,

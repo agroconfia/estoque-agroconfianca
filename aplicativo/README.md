@@ -1,6 +1,8 @@
 # Consulta de Estoque — AgroConfiança
 
-Página para consultar Código, Descrição e Estoque Físico dos produtos. Os valores são importados da coluna `PCNR(+)` da planilha.
+Página para consultar Código, Descrição e todas as posições de estoque dos produtos: `Estoque calculado`, `EF(+)`, `PCNR(+)`, `PVNE(-)`, `CF(+)`, `VF(-)`, `RDR(-)`, `RDE(+)`, `CA(+)` e `VA(-)`.
+
+No relatório de origem, cada valor está uma coluna à direita de seu título. O importador aplica essa correção automaticamente. O filtro e o total de Estoque Físico usam o valor corrigido de `PCNR(+)`.
 
 ## Atualizar o estoque
 

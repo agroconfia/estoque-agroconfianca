@@ -1,6 +1,8 @@
 # Estoque AgroConfiança
 
-Projeto de consulta por Código, Descrição e Estoque Físico, usando os valores da coluna `PCNR(+)`.
+Projeto de consulta por Código e Descrição com todas as posições de estoque: `Estoque calculado`, `EF(+)`, `PCNR(+)`, `PVNE(-)`, `CF(+)`, `VF(-)`, `RDR(-)`, `RDE(+)`, `CA(+)` e `VA(-)`.
+
+O relatório possui os valores deslocados uma coluna à direita dos títulos. O importador corrige esse deslocamento automaticamente. O filtro e o total de Estoque Físico usam o valor corrigido de `PCNR(+)`.
 
 Para atualizar, substitua `Fatu4184.XLS` mantendo a estrutura atual e execute `Atualizar Estoque.cmd`.
 

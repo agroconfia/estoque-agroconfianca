@@ -2,1886 +2,5279 @@
   {
     "code": "0005602",
     "description": "2,4D 806 SL CROTECT - 20 L",
-    "stock": 180
+    "calculatedStock": 0,
+    "efPlus": 180,
+    "pcnrPlus": 0,
+    "pvneMinus": 180,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003810",
     "description": "ABSOLUTO FIX - 5 L",
-    "stock": 60
+    "calculatedStock": 60,
+    "efPlus": 60,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005910",
     "description": "ACARIGEN 84 SC (ABAMECTINA) - 5 L",
-    "stock": 0
+    "calculatedStock": 200,
+    "efPlus": 0,
+    "pcnrPlus": 200,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005841",
     "description": "ACARIGEN 84 SC (ABAMECTINA) - 10 L",
-    "stock": 0
+    "calculatedStock": -40,
+    "efPlus": 0,
+    "pcnrPlus": 300,
+    "pvneMinus": 340,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000079",
     "description": "ACCENT - FRASCO 100 G",
-    "stock": 47.3
+    "calculatedStock": 47.3,
+    "efPlus": 47.3,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005332",
     "description": "ACEFATO CCAB 750 SP- 5KG",
-    "stock": 15
+    "calculatedStock": 15,
+    "efPlus": 15,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005853",
     "description": "ACETA 200 SP (ACETAMIPRIDO) - 5KG",
-    "stock": 500
+    "calculatedStock": 155,
+    "efPlus": 500,
+    "pcnrPlus": 0,
+    "pvneMinus": 345,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004787",
     "description": "ACROSS (AZOXISTROBINA + DIFENOCONAZOL) - 20 L",
-    "stock": 11900
+    "calculatedStock": 13880,
+    "efPlus": 11900,
+    "pcnrPlus": 7000,
+    "pvneMinus": 5020,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005424",
     "description": "ADJUVANTE GOPLAN 1 - 5 L",
-    "stock": 865
+    "calculatedStock": 520,
+    "efPlus": 865,
+    "pcnrPlus": 0,
+    "pvneMinus": 345,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005507",
     "description": "ADJUVANTE GOPLAN 2 - 5 L",
-    "stock": 1035
+    "calculatedStock": 685,
+    "efPlus": 1035,
+    "pcnrPlus": 0,
+    "pvneMinus": 350,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005866",
     "description": "ADUBO CIBRAMIX 08-40-00 CIBRA - BAG 1000KG",
-    "stock": 14
+    "calculatedStock": 0,
+    "efPlus": 14,
+    "pcnrPlus": 0,
+    "pvneMinus": 14,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000852",
     "description": "ADUBO S.SIMPLES 00-21-00 +17% CA + 10% S - SC",
-    "stock": 0.05
+    "calculatedStock": 0.05,
+    "efPlus": 0.05,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005872",
     "description": "ADUBO SSP 20/16 CIBRA - BAG 1.000 KG",
-    "stock": 92
+    "calculatedStock": 0,
+    "efPlus": 92,
+    "pcnrPlus": 0,
+    "pvneMinus": 92,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005776",
     "description": "ADVER 240 TM (CLORFENAPIR) 240 SC - 5 L",
-    "stock": 0
+    "calculatedStock": -25,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": 25,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005839",
     "description": "ADVER 240 TM (CLORFENAPIR) 240 SC - 20 L",
-    "stock": 1540
+    "calculatedStock": 1320,
+    "efPlus": 1540,
+    "pcnrPlus": 1000,
+    "pvneMinus": 1220,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002583",
     "description": "AGRISYNC D - 1 L",
-    "stock": 24
+    "calculatedStock": 24,
+    "efPlus": 24,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002254",
     "description": "AGRISYNC D - 12,5 L",
-    "stock": 362.5
+    "calculatedStock": 362.5,
+    "efPlus": 362.5,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002074",
     "description": "ALGON - 20 L",
-    "stock": 320
+    "calculatedStock": 320,
+    "efPlus": 320,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005788",
     "description": "ALMADA (FLUXAPIROXADE 22,5G +MANCOZEBE 440G +",
-    "stock": 0
+    "calculatedStock": 1000,
+    "efPlus": 0,
+    "pcnrPlus": 1000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003134",
     "description": "AMETRINA ALTA 500 SC - 20 L",
-    "stock": 860
+    "calculatedStock": 860,
+    "efPlus": 860,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004909",
     "description": "AMIGO GOPLAN - 5 L",
-    "stock": 95
+    "calculatedStock": 95,
+    "efPlus": 95,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005558",
     "description": "AMIGO GOPLAN - 20 L",
-    "stock": 1000
+    "calculatedStock": 1000,
+    "efPlus": 1000,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001957",
     "description": "ANTI ESPUMA - 1 L",
-    "stock": 39
+    "calculatedStock": 39,
+    "efPlus": 39,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004789",
     "description": "APRESA (FLUMIOXAZINA + S-METOLACLORO ) - 20 L",
-    "stock": 820
+    "calculatedStock": 1760,
+    "efPlus": 820,
+    "pcnrPlus": 1340,
+    "pvneMinus": 400,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003458",
     "description": "APROACH POWER - 10 L",
-    "stock": 6030
+    "calculatedStock": 2410,
+    "efPlus": 6030,
+    "pcnrPlus": 0,
+    "pvneMinus": 3620,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005122",
     "description": "APROACH PREMIUM - 10 L",
-    "stock": 2590
+    "calculatedStock": 150,
+    "efPlus": 2590,
+    "pcnrPlus": 0,
+    "pvneMinus": 1840,
+    "cfPlus": 0,
+    "vfMinus": 600,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004792",
     "description": "ARADDO - 20 L",
-    "stock": 920
+    "calculatedStock": 2020,
+    "efPlus": 920,
+    "pcnrPlus": 1500,
+    "pvneMinus": 400,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005855",
     "description": "ARCAR PIRIPROXYFEM 100 EC - 20 L",
-    "stock": 0
+    "calculatedStock": 2820,
+    "efPlus": 0,
+    "pcnrPlus": 2820,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004794",
     "description": "ARMERO BR - 20 L",
-    "stock": 15840
+    "calculatedStock": 8620,
+    "efPlus": 15840,
+    "pcnrPlus": 5000,
+    "pvneMinus": 12220,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005150",
     "description": "ASSARIS (METOMIL) 20L",
-    "stock": 800
+    "calculatedStock": 440,
+    "efPlus": 800,
+    "pcnrPlus": 0,
+    "pvneMinus": 360,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000548",
     "description": "ATALHO - 1 L",
-    "stock": 68
+    "calculatedStock": 68,
+    "efPlus": 68,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005654",
     "description": "ATRAZINA CROTECT 500SC - 20 L",
-    "stock": 20
+    "calculatedStock": 20,
+    "efPlus": 20,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005062",
     "description": "ATRAZINA ULTIMATO 500SC - 20 L",
-    "stock": 4760
+    "calculatedStock": 4680,
+    "efPlus": 4760,
+    "pcnrPlus": 0,
+    "pvneMinus": 80,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005237",
     "description": "ATRIVO SL (DIQUAT) - 20 L",
-    "stock": 280
+    "calculatedStock": 280,
+    "efPlus": 280,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005913",
     "description": "AUREO EC720 - 20 L",
-    "stock": 0
+    "calculatedStock": 2000,
+    "efPlus": 0,
+    "pcnrPlus": 2000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001188",
     "description": "AURORA 400 EC - 1 L",
-    "stock": 16
+    "calculatedStock": 0,
+    "efPlus": 16,
+    "pcnrPlus": 0,
+    "pvneMinus": 16,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002190",
     "description": "AURORA 400 EC - 5 L",
-    "stock": 45
+    "calculatedStock": 335,
+    "efPlus": 45,
+    "pcnrPlus": 380,
+    "pvneMinus": 90,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001483",
     "description": "AVATAR - 5 L",
-    "stock": 500
+    "calculatedStock": 500,
+    "efPlus": 500,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004795",
     "description": "AZIMUT - 20 L",
-    "stock": 3640
+    "calculatedStock": 5100,
+    "efPlus": 3640,
+    "pcnrPlus": 3000,
+    "pvneMinus": 1540,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001629",
     "description": "BAZUKA (METOMIL) 216 SL - 20L",
-    "stock": 5260
+    "calculatedStock": 3900,
+    "efPlus": 5260,
+    "pcnrPlus": 0,
+    "pvneMinus": 1360,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000746",
     "description": "BENEVIA 10 OD - 5 L",
-    "stock": 115
+    "calculatedStock": 115,
+    "efPlus": 115,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004873",
     "description": "BIG RED - 10 L",
-    "stock": 300
+    "calculatedStock": 300,
+    "efPlus": 300,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001321",
     "description": "BIOHUMATE 30 (AC. HÚMICOS E FULVICOS) - 5 L",
-    "stock": 360
+    "calculatedStock": 360,
+    "efPlus": 360,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004797",
     "description": "BLINDADO TOV - 20 L",
-    "stock": 500
+    "calculatedStock": 0,
+    "efPlus": 500,
+    "pcnrPlus": 240,
+    "pvneMinus": 740,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003813",
     "description": "BLOW OUT (DIQUAT) - 20 L",
-    "stock": 0
+    "calculatedStock": 8380,
+    "efPlus": 0,
+    "pcnrPlus": 25000,
+    "pvneMinus": 14220,
+    "cfPlus": 0,
+    "vfMinus": 2400,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001177",
     "description": "BOLD - 5 L",
-    "stock": 145
+    "calculatedStock": 145,
+    "efPlus": 145,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005430",
     "description": "BORO GOPLAN - 20L",
-    "stock": 4000
+    "calculatedStock": 0,
+    "efPlus": 4000,
+    "pcnrPlus": 0,
+    "pvneMinus": 4000,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005784",
     "description": "BOWE GOPLAN - 5 L",
-    "stock": 500
+    "calculatedStock": 500,
+    "efPlus": 500,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005830",
     "description": "BRA 30 MAIS - 20 L",
-    "stock": 7000
+    "calculatedStock": 7000,
+    "efPlus": 7000,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005832",
     "description": "BRA CITROIL MAIS - 20 L",
-    "stock": 500
+    "calculatedStock": 500,
+    "efPlus": 500,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005831",
     "description": "BRA NITRO MAIS - 5 L",
-    "stock": 300
+    "calculatedStock": 300,
+    "efPlus": 300,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003795",
     "description": "BRAVENGIS - 20 L",
-    "stock": 10120
+    "calculatedStock": 6100,
+    "efPlus": 10120,
+    "pcnrPlus": 0,
+    "pvneMinus": 4020,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005922",
     "description": "BULLDOCK - 1 L",
-    "stock": 0
+    "calculatedStock": 108,
+    "efPlus": 0,
+    "pcnrPlus": 108,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005854",
     "description": "BUSHI (LAMBDA-CIALOTRINA) - 10 L",
-    "stock": 370
+    "calculatedStock": 250,
+    "efPlus": 370,
+    "pcnrPlus": 0,
+    "pvneMinus": 120,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005833",
     "description": "CAMPESTRE (PICLORAM 240 SL) - 5 L",
-    "stock": 0
+    "calculatedStock": 1000,
+    "efPlus": 0,
+    "pcnrPlus": 1000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005660",
     "description": "CAMPESTRE (PICLORAM 240 SL) - 20 L",
-    "stock": 5000
+    "calculatedStock": 5000,
+    "efPlus": 5000,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003463",
     "description": "CELEBRO - 20 L",
-    "stock": 100
+    "calculatedStock": 100,
+    "efPlus": 100,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000296",
     "description": "CERTEZA N - 5 L",
-    "stock": 105
+    "calculatedStock": 40,
+    "efPlus": 105,
+    "pcnrPlus": 0,
+    "pvneMinus": 65,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005892",
     "description": "CHLOROCILI 480 EC (CLORPIRIFOS) - 20L",
-    "stock": 0
+    "calculatedStock": 320,
+    "efPlus": 0,
+    "pcnrPlus": 1460,
+    "pvneMinus": 1140,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005813",
     "description": "CLETODIM BRILLIANCE 240 EC - 20 L",
-    "stock": 1300
+    "calculatedStock": 780,
+    "efPlus": 1300,
+    "pcnrPlus": 0,
+    "pvneMinus": 520,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005860",
     "description": "CLORETO DE POT - KCL (00-00-60) EUROCHEM - BA",
-    "stock": 12
+    "calculatedStock": 33,
+    "efPlus": 12,
+    "pcnrPlus": 325,
+    "pvneMinus": 304,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003816",
     "description": "CLORIMUROM CCAB 250 WG- PCT 0,300 KG",
-    "stock": 1.2
+    "calculatedStock": 1.2,
+    "efPlus": 1.2,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005600",
     "description": "CLOROTALONIL 720 SINO AGRI - 20LT",
-    "stock": 8340
+    "calculatedStock": 1740,
+    "efPlus": 8340,
+    "pcnrPlus": 0,
+    "pvneMinus": 6600,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005891",
     "description": "CLORPIRI 480 EC (CLORPIRIFOS) - 20L",
-    "stock": 0
+    "calculatedStock": 2040,
+    "efPlus": 0,
+    "pcnrPlus": 2040,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004219",
     "description": "CONCORDE RN - 20 L",
-    "stock": 0
+    "calculatedStock": 8780,
+    "efPlus": 0,
+    "pcnrPlus": 10000,
+    "pvneMinus": 1220,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005923",
     "description": "CONNECT SC112,5 - 20 L",
-    "stock": 0
+    "calculatedStock": 1500,
+    "efPlus": 0,
+    "pcnrPlus": 1500,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003868",
     "description": "CONVENCE FS - 1 L",
-    "stock": 9
+    "calculatedStock": 9,
+    "efPlus": 9,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005920",
     "description": "CONVINTRO DUO SC600 - 20 L",
-    "stock": 0
+    "calculatedStock": 1000,
+    "efPlus": 0,
+    "pcnrPlus": 1000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005759",
     "description": "COREGIS (CLORANTRANILIPROLE 200 SC PREMIO) -",
-    "stock": 0
+    "calculatedStock": 275,
+    "efPlus": 0,
+    "pcnrPlus": 300,
+    "pvneMinus": 5,
+    "cfPlus": 0,
+    "vfMinus": 20,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003731",
     "description": "CROP EVO - 1 L",
-    "stock": 2
+    "calculatedStock": 2,
+    "efPlus": 2,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003717",
     "description": "CROP EVO - 5 L",
-    "stock": 885
+    "calculatedStock": 885,
+    "efPlus": 885,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005649",
     "description": "CRUZARO TRICLOPIR 480EC - 20 L",
-    "stock": 2240
+    "calculatedStock": 5540,
+    "efPlus": 2240,
+    "pcnrPlus": 3300,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005308",
     "description": "CT - GREEN AD - 5 L",
-    "stock": 250
+    "calculatedStock": 205,
+    "efPlus": 250,
+    "pcnrPlus": 0,
+    "pvneMinus": 45,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001063",
     "description": "CT - GREEN AD - 20 L",
-    "stock": 80
+    "calculatedStock": 60,
+    "efPlus": 80,
+    "pcnrPlus": 0,
+    "pvneMinus": 20,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005305",
     "description": "CT - GREEN AD - 20 L",
-    "stock": 1840
+    "calculatedStock": 1700,
+    "efPlus": 1840,
+    "pcnrPlus": 0,
+    "pvneMinus": 140,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005307",
     "description": "CT - GREEN AD - 200 L",
-    "stock": 1000
+    "calculatedStock": 0,
+    "efPlus": 1000,
+    "pcnrPlus": 0,
+    "pvneMinus": 1000,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005309",
     "description": "CT - GREEN AD - 1000 L",
-    "stock": 2000
+    "calculatedStock": 0,
+    "efPlus": 2000,
+    "pcnrPlus": 0,
+    "pvneMinus": 2000,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005311",
     "description": "CT-LIMP AD - 1 L",
-    "stock": 2
+    "calculatedStock": 2,
+    "efPlus": 2,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005924",
     "description": "CURBIX SC200 - 20 L",
-    "stock": 0
+    "calculatedStock": 2100,
+    "efPlus": 0,
+    "pcnrPlus": 2100,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005459",
     "description": "CUTLASS 700 WG (IMIDA 700) - 1KG",
-    "stock": 0
+    "calculatedStock": 400,
+    "efPlus": 0,
+    "pcnrPlus": 400,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000515",
     "description": "DERMACOR - 1 L",
-    "stock": 2
+    "calculatedStock": -1,
+    "efPlus": 2,
+    "pcnrPlus": 0,
+    "pvneMinus": 3,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001284",
     "description": "DERMACOR - 5 L",
-    "stock": 75
+    "calculatedStock": 40,
+    "efPlus": 75,
+    "pcnrPlus": 0,
+    "pvneMinus": 35,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005251",
     "description": "DERRETE (METSULFUROM) - PCT 0,200 KG",
-    "stock": 150
+    "calculatedStock": 150,
+    "efPlus": 150,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005169",
     "description": "DIFENOCONAZOL CCAB 250 EC - 5 L",
-    "stock": 30
+    "calculatedStock": 30,
+    "efPlus": 30,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001934",
     "description": "DIFERE - 5 L",
-    "stock": 6930
+    "calculatedStock": 5150,
+    "efPlus": 6930,
+    "pcnrPlus": 0,
+    "pvneMinus": 1765,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 15,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005460",
     "description": "DIFO DIFENOCONAZOL 250 EC - 5 L",
-    "stock": 135
+    "calculatedStock": 135,
+    "efPlus": 135,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005560",
     "description": "DINKY 200 SP (ACETAMIPRIDO) - 5KG",
-    "stock": 5
+    "calculatedStock": 5,
+    "efPlus": 5,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005106",
     "description": "EGAN (DIQUATE) - 20 L",
-    "stock": 0
+    "calculatedStock": 10800,
+    "efPlus": 0,
+    "pcnrPlus": 10800,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005756",
     "description": "ELIPSE (ACETA 250 + BIFENTRINA 250 WG) - 10 K",
-    "stock": 3650
+    "calculatedStock": 3370,
+    "efPlus": 3650,
+    "pcnrPlus": 1000,
+    "pvneMinus": 1280,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004217",
     "description": "ENERGY - 10 KG",
-    "stock": 0
+    "calculatedStock": 970,
+    "efPlus": 0,
+    "pcnrPlus": 1000,
+    "pvneMinus": 30,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005921",
     "description": "ETHREL SL720 - 20 L",
-    "stock": 0
+    "calculatedStock": 1500,
+    "efPlus": 0,
+    "pcnrPlus": 1500,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000318",
     "description": "EXALT - 5 L",
-    "stock": 195
+    "calculatedStock": 165,
+    "efPlus": 195,
+    "pcnrPlus": 0,
+    "pvneMinus": 30,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002212",
     "description": "EXEMPLO (2,4D) - 20 L",
-    "stock": 480
+    "calculatedStock": 0,
+    "efPlus": 480,
+    "pcnrPlus": 0,
+    "pvneMinus": 480,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002253",
     "description": "EXPEDITION - 5 L",
-    "stock": 775
+    "calculatedStock": 745,
+    "efPlus": 775,
+    "pcnrPlus": 0,
+    "pvneMinus": 30,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005835",
     "description": "FERRETI (TRICLOPIR 240G + FLUROXIPIR 80G) - 2",
-    "stock": 2980
+    "calculatedStock": 2980,
+    "efPlus": 2980,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004004",
     "description": "FERT PROD PHUSION POWER - BAG 1000KG",
-    "stock": 0
+    "calculatedStock": 0,
+    "efPlus": 0,
+    "pcnrPlus": 154,
+    "pvneMinus": 154,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005637",
     "description": "FERT PROD POLYBLEN PLANTE N TIME 27-17-00 - S",
-    "stock": 2.5
+    "calculatedStock": 2.5,
+    "efPlus": 2.5,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001882",
     "description": "FERTILIZANTE RAIZER - 5 L",
-    "stock": 260
+    "calculatedStock": 260,
+    "efPlus": 260,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001875",
     "description": "FERTILIZANTE VEEPER - 20 L",
-    "stock": 680
+    "calculatedStock": 680,
+    "efPlus": 680,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005748",
     "description": "FIPRONIL AGCN 800 WG - 1 KG",
-    "stock": 0
+    "calculatedStock": -11,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": 11,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000549",
     "description": "FLUIL - 1 L",
-    "stock": 275
+    "calculatedStock": 275,
+    "efPlus": 275,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002975",
     "description": "FLUIL BPH - 1 L",
-    "stock": 102
+    "calculatedStock": 102,
+    "efPlus": 102,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005561",
     "description": "FORCEPS ( ACETAMIPRID 250 + BIFENTRINA 250) (",
-    "stock": 20
+    "calculatedStock": 0,
+    "efPlus": 20,
+    "pcnrPlus": 0,
+    "pvneMinus": 20,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005915",
     "description": "FOX SUPRA SC360 - 20 L",
-    "stock": 0
+    "calculatedStock": 500,
+    "efPlus": 0,
+    "pcnrPlus": 500,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005919",
     "description": "FOX ULTRA SC420 - 20 L",
-    "stock": 0
+    "calculatedStock": 1000,
+    "efPlus": 0,
+    "pcnrPlus": 1000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005916",
     "description": "FOX XPRO SC450 - 20 L",
-    "stock": 0
+    "calculatedStock": 4000,
+    "efPlus": 0,
+    "pcnrPlus": 4000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001341",
     "description": "FUSAO EC - BB/ 10L",
-    "stock": 1500
+    "calculatedStock": 340,
+    "efPlus": 1500,
+    "pcnrPlus": 0,
+    "pvneMinus": 1140,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 20,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005553",
     "description": "GALGA GOPLAN - 10 L",
-    "stock": 0
+    "calculatedStock": -50,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": 50,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005787",
     "description": "GALIL NANO (BIFENTRINA 50G + IMIDACLOPRIDO 25",
-    "stock": 0
+    "calculatedStock": 1000,
+    "efPlus": 0,
+    "pcnrPlus": 1000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000744",
     "description": "GALIL SC - 20 L",
-    "stock": 1880
+    "calculatedStock": 1240,
+    "efPlus": 1880,
+    "pcnrPlus": 0,
+    "pvneMinus": 640,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005849",
     "description": "GALOPEIRO 340 SL (2,4D + PICLORAM) - 20 L",
-    "stock": 9720
+    "calculatedStock": 9680,
+    "efPlus": 9720,
+    "pcnrPlus": 0,
+    "pvneMinus": 40,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005478",
     "description": "GAPPER - 5 L",
-    "stock": 365
+    "calculatedStock": 365,
+    "efPlus": 365,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005238",
     "description": "GHARDA 48 EC (CLORPIRIFOS) - 20L",
-    "stock": 0
+    "calculatedStock": 7000,
+    "efPlus": 0,
+    "pcnrPlus": 7000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005159",
     "description": "GIFT (MANCOZEB LÍQUIDO) - 10 L",
-    "stock": 10600
+    "calculatedStock": 7750,
+    "efPlus": 10600,
+    "pcnrPlus": 0,
+    "pvneMinus": 150,
+    "cfPlus": 0,
+    "vfMinus": 1200,
+    "rdrMinus": 1500,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005573",
     "description": "GLIFOSATO GLIFA 720 WG - PCT 20KG",
-    "stock": 17020
+    "calculatedStock": 5560,
+    "efPlus": 17020,
+    "pcnrPlus": 0,
+    "pvneMinus": 11460,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000189",
     "description": "GLIFOSATO GLIZMAX PRIME - 20 L",
-    "stock": 180
+    "calculatedStock": 180,
+    "efPlus": 180,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005423",
     "description": "GLIFOSATO IPA 480 RAINBOW - 1L",
-    "stock": 423
+    "calculatedStock": 423,
+    "efPlus": 423,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005847",
     "description": "GLIFOSATO PRECISO XK 540 SL - 20L",
-    "stock": 9120
+    "calculatedStock": 4460,
+    "efPlus": 9120,
+    "pcnrPlus": 0,
+    "pvneMinus": 4660,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005428",
     "description": "GLIFOSATO SENHA 720 WG - PCT 20KG",
-    "stock": 0
+    "calculatedStock": 2800,
+    "efPlus": 0,
+    "pcnrPlus": 2800,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003951",
     "description": "GLIFOSATO TECNUP MAX 720 WG - 20 KG",
-    "stock": 0
+    "calculatedStock": 6000,
+    "efPlus": 0,
+    "pcnrPlus": 6000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "99999991",
     "description": "GLIFOSATO XEQUE MATE - 20 L",
-    "stock": 680
+    "calculatedStock": 680,
+    "efPlus": 680,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005844",
     "description": "GLUFE 200SL (GLUFOSINATE DE SAL AMONIO) - 20",
-    "stock": 2500
+    "calculatedStock": 1960,
+    "efPlus": 2500,
+    "pcnrPlus": 0,
+    "pvneMinus": 540,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005353",
     "description": "GLUFOSINATO LOYER 200 SL - 20L",
-    "stock": 880
+    "calculatedStock": 0,
+    "efPlus": 880,
+    "pcnrPlus": 0,
+    "pvneMinus": 880,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005617",
     "description": "GLUFOSINATO TARBOX 850 SG - 5KG",
-    "stock": 0
+    "calculatedStock": 880,
+    "efPlus": 0,
+    "pcnrPlus": 2000,
+    "pvneMinus": 1120,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005556",
     "description": "GO HUMATE GOPLAN - 20 L",
-    "stock": 1540
+    "calculatedStock": 2040,
+    "efPlus": 1540,
+    "pcnrPlus": 500,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004171",
     "description": "GOPLAN OLEO MINERAL - 20 L",
-    "stock": 1180
+    "calculatedStock": 8860,
+    "efPlus": 1180,
+    "pcnrPlus": 7680,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005175",
     "description": "GROUND SHILD, MAGMA 500 SC (FLUMIOXAZINA)- 5",
-    "stock": 490
+    "calculatedStock": 340,
+    "efPlus": 490,
+    "pcnrPlus": 0,
+    "pvneMinus": 150,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004206",
     "description": "HELPER DESSEK ADJ - 1 L",
-    "stock": 274
+    "calculatedStock": 274,
+    "efPlus": 274,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005143",
     "description": "HELPER DESSEK ADJ - 5 L",
-    "stock": 225
+    "calculatedStock": 135,
+    "efPlus": 225,
+    "pcnrPlus": 0,
+    "pvneMinus": 90,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004207",
     "description": "HELPER NEUTRUM ADJ - 1 L",
-    "stock": 6
+    "calculatedStock": 6,
+    "efPlus": 6,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005032",
     "description": "HELPER NEUTRUM ADJ - 5 L",
-    "stock": 755
+    "calculatedStock": -50,
+    "efPlus": 755,
+    "pcnrPlus": 0,
+    "pvneMinus": 805,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001189",
     "description": "HERO - 5 L",
-    "stock": 3535
+    "calculatedStock": 1880,
+    "efPlus": 3535,
+    "pcnrPlus": 0,
+    "pvneMinus": 1655,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005220",
     "description": "HERO - 10 L",
-    "stock": 10
+    "calculatedStock": 10,
+    "efPlus": 10,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001375",
     "description": "IHAROL GOLD - 20 L",
-    "stock": 4300
+    "calculatedStock": 0,
+    "efPlus": 4300,
+    "pcnrPlus": 0,
+    "pvneMinus": 4300,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003931",
     "description": "IMAZETAPIR CCAB 106SL - 20 L",
-    "stock": 240
+    "calculatedStock": 200,
+    "efPlus": 240,
+    "pcnrPlus": 0,
+    "pvneMinus": 40,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005429",
     "description": "IMPACTUS CS LAMBDA-CIALOTRINA 250 - 20 L",
-    "stock": 220
+    "calculatedStock": 220,
+    "efPlus": 220,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005029",
     "description": "IMPROVER MAX - 5 L",
-    "stock": 0
+    "calculatedStock": 160,
+    "efPlus": 0,
+    "pcnrPlus": 200,
+    "pvneMinus": 40,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004662",
     "description": "IMPROVER RN II - 1 L",
-    "stock": 134
+    "calculatedStock": 134,
+    "efPlus": 134,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005786",
     "description": "INDOXACARB CCAB 150 SC - 5 L",
-    "stock": 100
+    "calculatedStock": 100,
+    "efPlus": 100,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005882",
     "description": "INOCULANTE - ACTBIO BRADY EL 3L (60 DS)",
-    "stock": 13200
+    "calculatedStock": 300,
+    "efPlus": 13200,
+    "pcnrPlus": 0,
+    "pvneMinus": 12900,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005544",
     "description": "INOCULANTE - ACTBIO X - AZOS 3L(30 DS)",
-    "stock": 13650
+    "calculatedStock": 11910,
+    "efPlus": 13650,
+    "pcnrPlus": 0,
+    "pvneMinus": 1740,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005810",
     "description": "INOCULANTE - BIOLYC L 3 L (60 DS)",
-    "stock": 5220
+    "calculatedStock": 0,
+    "efPlus": 5220,
+    "pcnrPlus": 0,
+    "pvneMinus": 5220,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001510",
     "description": "INOCULANTE - NODUGRAM L (AZOSPIRILLUM) 3 L (",
-    "stock": 8040
+    "calculatedStock": 17490,
+    "efPlus": 8040,
+    "pcnrPlus": 9960,
+    "pvneMinus": 510,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "99999986",
     "description": "INOCULANTE - NODUSOJA L ELKANI 3L (50 DS)",
-    "stock": 20750
+    "calculatedStock": 8950,
+    "efPlus": 20750,
+    "pcnrPlus": 0,
+    "pvneMinus": 11800,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "99999987",
     "description": "INOCULANTE - NODUSOJA T (PCT 800 GR - 10 D)",
-    "stock": 1240
+    "calculatedStock": 540,
+    "efPlus": 1240,
+    "pcnrPlus": 0,
+    "pvneMinus": 700,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000184",
     "description": "INTREPID 240 SC - 5L",
-    "stock": 1080
+    "calculatedStock": 510,
+    "efPlus": 1080,
+    "pcnrPlus": 0,
+    "pvneMinus": 570,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005566",
     "description": "IP37 ICL - 25 KG",
-    "stock": 6
+    "calculatedStock": 6,
+    "efPlus": 6,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005463",
     "description": "JINGGA GOPLAN - 1 L",
-    "stock": 1
+    "calculatedStock": 1,
+    "efPlus": 1,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005812",
     "description": "JINGGA GOPLAN - 5 L",
-    "stock": 640
+    "calculatedStock": 255,
+    "efPlus": 640,
+    "pcnrPlus": 0,
+    "pvneMinus": 385,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005646",
     "description": "JOYA 480 SC (FLUMIOXAZINA) - 5 L",
-    "stock": 30
+    "calculatedStock": 5,
+    "efPlus": 30,
+    "pcnrPlus": 0,
+    "pvneMinus": 25,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005594",
     "description": "JUDOKA SUPER 250 CS (LAMBDA-CIALOTRINA) - 10",
-    "stock": 0
+    "calculatedStock": 300,
+    "efPlus": 0,
+    "pcnrPlus": 300,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005466",
     "description": "KARREGA GOPLAN - 05 KG",
-    "stock": 1070
+    "calculatedStock": 3570,
+    "efPlus": 1070,
+    "pcnrPlus": 2500,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004212",
     "description": "KELLUS BLINDEX RN - 3 KG",
-    "stock": 792
+    "calculatedStock": 180,
+    "efPlus": 792,
+    "pcnrPlus": 0,
+    "pvneMinus": 612,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004213",
     "description": "KELLUS COPPER RN - 3 KG",
-    "stock": 1902
+    "calculatedStock": 1131,
+    "efPlus": 1902,
+    "pcnrPlus": 0,
+    "pvneMinus": 771,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004660",
     "description": "KELLUS IMUNE - 4 KG",
-    "stock": 180
+    "calculatedStock": 0,
+    "efPlus": 180,
+    "pcnrPlus": 0,
+    "pvneMinus": 180,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004211",
     "description": "KELLUS INOX RN - 3 KG",
-    "stock": 0
+    "calculatedStock": 372,
+    "efPlus": 0,
+    "pcnrPlus": 5010,
+    "pvneMinus": 4638,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005010",
     "description": "KELPAK GOPLAN - 05 L",
-    "stock": 870
+    "calculatedStock": 870,
+    "efPlus": 870,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000193",
     "description": "KIT EPI COSTAL TELA EC. - TAM. G",
-    "stock": 52
+    "calculatedStock": 52,
+    "efPlus": 52,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000141",
     "description": "KIT EPI COSTAL TELA EC. - TAM. GG",
-    "stock": 2
+    "calculatedStock": 2,
+    "efPlus": 2,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000192",
     "description": "KIT EPI COSTAL TELA EC. - TAM. M",
-    "stock": 1
+    "calculatedStock": 1,
+    "efPlus": 1,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004872",
     "description": "KMAX + - 10 L",
-    "stock": 70
+    "calculatedStock": 0,
+    "efPlus": 70,
+    "pcnrPlus": 0,
+    "pvneMinus": 70,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005552",
     "description": "KOPI MANUTENCAO GOPLAN - 15 KG",
-    "stock": 120
+    "calculatedStock": 120,
+    "efPlus": 120,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003811",
     "description": "KYOJIN - 1 L",
-    "stock": 51
+    "calculatedStock": 51,
+    "efPlus": 51,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003579",
     "description": "KYOJIN - 10 L",
-    "stock": 30
+    "calculatedStock": 30,
+    "efPlus": 30,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005840",
     "description": "LANEX 800 WG (FIPRONIL) - 5 KG",
-    "stock": 190
+    "calculatedStock": 140,
+    "efPlus": 190,
+    "pcnrPlus": 80,
+    "pvneMinus": 130,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005755",
     "description": "LEAF OIL 98 (OLEO MINERAL) - 20 L",
-    "stock": 3580
+    "calculatedStock": 3580,
+    "efPlus": 3580,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005639",
     "description": "LEME 960 EC S-METOLACLORO (CLOROACETANILIDA)",
-    "stock": 0
+    "calculatedStock": -120,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": 120,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005843",
     "description": "LIMUZINA 500SC (ATRAZINA) - 20 L",
-    "stock": 5060
+    "calculatedStock": 5060,
+    "efPlus": 5060,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005644",
     "description": "LUBA (CLORPIRIFOS) 480 EC - 20L",
-    "stock": 360
+    "calculatedStock": 0,
+    "efPlus": 360,
+    "pcnrPlus": 0,
+    "pvneMinus": 360,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005205",
     "description": "M.A.P. 11-52-00 CIBRA - BAG 1.000 KG",
-    "stock": 35
+    "calculatedStock": 0,
+    "efPlus": 35,
+    "pcnrPlus": 0,
+    "pvneMinus": 35,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000040",
     "description": "MAG FLO PLUS - 5 L",
-    "stock": 490
+    "calculatedStock": 490,
+    "efPlus": 490,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005785",
     "description": "MAGGO GOPLAN - 20L",
-    "stock": 6000
+    "calculatedStock": 6000,
+    "efPlus": 6000,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005760",
     "description": "MAGMA 500 SC (FLUMIOXAZINA) - 5 L",
-    "stock": 225
+    "calculatedStock": 0,
+    "efPlus": 225,
+    "pcnrPlus": 60,
+    "pvneMinus": 285,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003681",
     "description": "MAGNUM 970 G/KG (ACEFATO) - 5KG",
-    "stock": 350
+    "calculatedStock": 350,
+    "efPlus": 350,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003136",
     "description": "MARSHAL 400 SC - 20 L",
-    "stock": 0
+    "calculatedStock": -40,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": 40,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005754",
     "description": "MATTOR (FLUROXIPIR + PICLORAM) - 5 L",
-    "stock": 0
+    "calculatedStock": 2000,
+    "efPlus": 0,
+    "pcnrPlus": 2000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004255",
     "description": "MATTOR (FLUROXIPIR + PICLORAM) - 20 L",
-    "stock": 1800
+    "calculatedStock": 9780,
+    "efPlus": 1800,
+    "pcnrPlus": 8000,
+    "pvneMinus": 20,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003898",
     "description": "MESOTRIONE 480 SC PROVENTIS - 5 L",
-    "stock": 15
+    "calculatedStock": 15,
+    "efPlus": 15,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003430",
     "description": "METOMIL NORTOX 215 SL (METOMIL) 20L",
-    "stock": 1740
+    "calculatedStock": 520,
+    "efPlus": 1740,
+    "pcnrPlus": 0,
+    "pvneMinus": 1220,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005890",
     "description": "METRARO (S-METOLACLOR 960) - 20L",
-    "stock": 500
+    "calculatedStock": 220,
+    "efPlus": 500,
+    "pcnrPlus": 0,
+    "pvneMinus": 280,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005758",
     "description": "MILHA (METSULFUROM 600 WG) - PCT 0,200 KG",
-    "stock": 46
+    "calculatedStock": 146,
+    "efPlus": 46,
+    "pcnrPlus": 100,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005140",
     "description": "MIRA - 5 L",
-    "stock": 2785
+    "calculatedStock": 2785,
+    "efPlus": 2785,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005468",
     "description": "MONICO GOPLAN - 5 L",
-    "stock": 0
+    "calculatedStock": -385,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": 385,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005883",
     "description": "MONICO GOPLAN - 10 L",
-    "stock": 1000
+    "calculatedStock": 1000,
+    "efPlus": 1000,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001190",
     "description": "MUSTANG 350 EC - 5 L",
-    "stock": 1655
+    "calculatedStock": 1290,
+    "efPlus": 1655,
+    "pcnrPlus": 0,
+    "pvneMinus": 365,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004915",
     "description": "NATHUS GOPLAN - 5 L",
-    "stock": 5
+    "calculatedStock": 180,
+    "efPlus": 5,
+    "pcnrPlus": 240,
+    "pvneMinus": 65,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005914",
     "description": "NATIVO PLUS - 5 L",
-    "stock": 0
+    "calculatedStock": 500,
+    "efPlus": 0,
+    "pcnrPlus": 500,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005917",
     "description": "NATIVO SC300 - 20 L",
-    "stock": 0
+    "calculatedStock": 500,
+    "efPlus": 0,
+    "pcnrPlus": 500,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003775",
     "description": "NEMACONTROL - 2 L",
-    "stock": 40
+    "calculatedStock": 40,
+    "efPlus": 40,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001939",
     "description": "NIPHOKAM 585 - 20 L",
-    "stock": 5020
+    "calculatedStock": 3140,
+    "efPlus": 5020,
+    "pcnrPlus": 0,
+    "pvneMinus": 680,
+    "cfPlus": 0,
+    "vfMinus": 1200,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005501",
     "description": "NITROCAP 30-00-20 MG CIBRA - BAG 1000KG",
-    "stock": 0
+    "calculatedStock": 0,
+    "efPlus": 0,
+    "pcnrPlus": 11,
+    "pvneMinus": 11,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004645",
     "description": "NITROCAP UREIA 46 GR BAG 1000KG",
-    "stock": 0
+    "calculatedStock": 9,
+    "efPlus": 0,
+    "pcnrPlus": 12,
+    "pvneMinus": 3,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003794",
     "description": "NITROGENIO GOPLAN - 20 L",
-    "stock": 1400
+    "calculatedStock": 1400,
+    "efPlus": 1400,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004216",
     "description": "NUTRIDUO - 10 KG",
-    "stock": 100
+    "calculatedStock": 100,
+    "efPlus": 100,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004661",
     "description": "NUTRIFLOW - 2 KG",
-    "stock": 56
+    "calculatedStock": 56,
+    "efPlus": 56,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002690",
     "description": "NUTRIOXI ATIVE W3- 20 L",
-    "stock": 40
+    "calculatedStock": 40,
+    "efPlus": 40,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005037",
     "description": "ONSUVA - 5 L",
-    "stock": 665
+    "calculatedStock": 50,
+    "efPlus": 665,
+    "pcnrPlus": 0,
+    "pvneMinus": 615,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005023",
     "description": "ONSUVA - 10 L",
-    "stock": 2410
+    "calculatedStock": 40,
+    "efPlus": 2410,
+    "pcnrPlus": 0,
+    "pvneMinus": 2370,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005903",
     "description": "ONSUVA - 20 L",
-    "stock": 800
+    "calculatedStock": 0,
+    "efPlus": 800,
+    "pcnrPlus": 0,
+    "pvneMinus": 800,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003464",
     "description": "ORIX AD - 20 L",
-    "stock": 180
+    "calculatedStock": 180,
+    "efPlus": 180,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004634",
     "description": "OXIATIVO - 1 L",
-    "stock": 136
+    "calculatedStock": 101,
+    "efPlus": 136,
+    "pcnrPlus": 0,
+    "pvneMinus": 35,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002745",
     "description": "OXIATIVO - 5 L",
-    "stock": 415
+    "calculatedStock": 150,
+    "efPlus": 415,
+    "pcnrPlus": 500,
+    "pvneMinus": 765,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002016",
     "description": "OXICLEAN (LAVA TANQUE) - 1 L",
-    "stock": 24
+    "calculatedStock": 24,
+    "efPlus": 24,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004437",
     "description": "OXIMULT- 1 L",
-    "stock": 0
+    "calculatedStock": -3,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": 3,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002744",
     "description": "OXIMULT- 5 L",
-    "stock": 0
+    "calculatedStock": 365,
+    "efPlus": 0,
+    "pcnrPlus": 800,
+    "pvneMinus": 435,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004967",
     "description": "PACTO - PCT 480 G",
-    "stock": 83.04
+    "calculatedStock": 80.64,
+    "efPlus": 83.04,
+    "pcnrPlus": 0,
+    "pvneMinus": 2.4,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005661",
     "description": "PAMPA (PICLORAM 64 + 2,4D) - 20 L",
-    "stock": 19800
+    "calculatedStock": 19780,
+    "efPlus": 19800,
+    "pcnrPlus": 0,
+    "pvneMinus": 20,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005156",
     "description": "PATRIOTA - 10 L",
-    "stock": 250
+    "calculatedStock": 250,
+    "efPlus": 250,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004249",
     "description": "PAXEO - PCT 0,220 KG",
-    "stock": 9.46
+    "calculatedStock": 9.46,
+    "efPlus": 9.46,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004757",
     "description": "PEAK (SHOCKER) - 1 KG",
-    "stock": 145
+    "calculatedStock": 145,
+    "efPlus": 145,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005757",
     "description": "PERGAN (FLUROXIPIR 480 EC) - 20 L",
-    "stock": 0
+    "calculatedStock": 960,
+    "efPlus": 0,
+    "pcnrPlus": 1000,
+    "pvneMinus": 40,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005620",
     "description": "PIRIPROXYFEM 100 EC SINO AGRI - 20 L",
-    "stock": 660
+    "calculatedStock": 0,
+    "efPlus": 660,
+    "pcnrPlus": 0,
+    "pvneMinus": 660,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002075",
     "description": "PLEXXUS MN - 20 L",
-    "stock": 60
+    "calculatedStock": 60,
+    "efPlus": 60,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002349",
     "description": "PLUVIOMETRO EM PS CRISTAL CAP 130M M C/LOGO",
-    "stock": 13
+    "calculatedStock": 13,
+    "efPlus": 13,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005465",
     "description": "POCCO GOPLAN - 05 L",
-    "stock": 475
+    "calculatedStock": 475,
+    "efPlus": 475,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004805",
     "description": "POQUER (CLETODIM) - 20 L",
-    "stock": 4340
+    "calculatedStock": 10760,
+    "efPlus": 4340,
+    "pcnrPlus": 10000,
+    "pvneMinus": 3580,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005022",
     "description": "POTASSIO GOPLAN - 20 L",
-    "stock": 500
+    "calculatedStock": 500,
+    "efPlus": 500,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005848",
     "description": "PREFER MAX (GLUFOSINATO) 500SL - 20 L",
-    "stock": 1000
+    "calculatedStock": 1000,
+    "efPlus": 1000,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001482",
     "description": "PREMIO - 1 L",
-    "stock": 524
+    "calculatedStock": 507,
+    "efPlus": 524,
+    "pcnrPlus": 0,
+    "pvneMinus": 17,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003208",
     "description": "PREMIO - 5 L",
-    "stock": 5
+    "calculatedStock": 375,
+    "efPlus": 5,
+    "pcnrPlus": 480,
+    "pvneMinus": 110,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004947",
     "description": "PREMIO STAR - 5 L",
-    "stock": 1600
+    "calculatedStock": 1320,
+    "efPlus": 1600,
+    "pcnrPlus": 0,
+    "pvneMinus": 280,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005777",
     "description": "PREMIO STAR - 20 L",
-    "stock": 1140
+    "calculatedStock": 1140,
+    "efPlus": 1140,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004842",
     "description": "PRESENCE FULL - 1 KG",
-    "stock": 38
+    "calculatedStock": 38,
+    "efPlus": 38,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004513",
     "description": "PROFOL BORO N - 25 L",
-    "stock": 2700
+    "calculatedStock": 1900,
+    "efPlus": 2700,
+    "pcnrPlus": 8675,
+    "pvneMinus": 9475,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004218",
     "description": "PROFOL EXCLUSIVE RN - 5 KG",
-    "stock": 0
+    "calculatedStock": 540,
+    "efPlus": 0,
+    "pcnrPlus": 1000,
+    "pvneMinus": 460,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005286",
     "description": "PROFOL MAGNESIO - 25 L",
-    "stock": 3350
+    "calculatedStock": 2700,
+    "efPlus": 3350,
+    "pcnrPlus": 8500,
+    "pvneMinus": 9150,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004214",
     "description": "PROFOL PRODUTIVIDADE ADT - 10 KG",
-    "stock": 30
+    "calculatedStock": 30,
+    "efPlus": 30,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005445",
     "description": "PROFOL PRODUTIVIDADE ADT - 12 KG",
-    "stock": 25260
+    "calculatedStock": 12720,
+    "efPlus": 25260,
+    "pcnrPlus": 0,
+    "pvneMinus": 12540,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005908",
     "description": "PROSOY (PROTIOCONAZOL+ PICOXISTROBINA) - 5L",
-    "stock": 0
+    "calculatedStock": 200,
+    "efPlus": 0,
+    "pcnrPlus": 200,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005875",
     "description": "PROSOY (PROTIOCONAZOL+ PICOXISTROBINA) - 10L",
-    "stock": 0
+    "calculatedStock": -110,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": 110,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005874",
     "description": "PROSOY TRIO (MANCOZEBE + PROTIOCONAZOL+ PICOX",
-    "stock": 0
+    "calculatedStock": -3100,
+    "efPlus": 0,
+    "pcnrPlus": 5000,
+    "pvneMinus": 8100,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005909",
     "description": "PROSOY TRIO (MANCOZEBE + PROTIOCONAZOL+ PICOX",
-    "stock": 0
+    "calculatedStock": 4000,
+    "efPlus": 0,
+    "pcnrPlus": 4000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005343",
     "description": "PROVILAR - 5 L",
-    "stock": 1455
+    "calculatedStock": 70,
+    "efPlus": 1455,
+    "pcnrPlus": 0,
+    "pvneMinus": 1385,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005750",
     "description": "PYROX (IMAZETAPIR 200G FLUMIOXAZINA 100G - 2",
-    "stock": 0
+    "calculatedStock": 480,
+    "efPlus": 0,
+    "pcnrPlus": 500,
+    "pvneMinus": 20,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003809",
     "description": "QUEBEC GOPLAN - 05 L",
-    "stock": 260
+    "calculatedStock": 260,
+    "efPlus": 260,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005009",
     "description": "QUEBEC GOPLAN - 20 L",
-    "stock": 2120
+    "calculatedStock": 2120,
+    "efPlus": 2120,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002287",
     "description": "QUIMIFOL 30 N - 20 L",
-    "stock": 1300
+    "calculatedStock": 1300,
+    "efPlus": 1300,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001946",
     "description": "QUIMIFOL BORO - 25KG",
-    "stock": 7350
+    "calculatedStock": 1775,
+    "efPlus": 7350,
+    "pcnrPlus": 2000,
+    "pvneMinus": 5175,
+    "cfPlus": 0,
+    "vfMinus": 2400,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004848",
     "description": "QUIMIFOL BORO L - 20 L",
-    "stock": 20
+    "calculatedStock": 20,
+    "efPlus": 20,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001947",
     "description": "QUIMIFOL CERRADO - 20 L",
-    "stock": 1880
+    "calculatedStock": 1040,
+    "efPlus": 1880,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 840,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002136",
     "description": "QUIMIFOL FERT CALCIO 14% - 20 L",
-    "stock": 140
+    "calculatedStock": 640,
+    "efPlus": 140,
+    "pcnrPlus": 500,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002785",
     "description": "QUIMIFOL FLORADA - 20 L",
-    "stock": 20
+    "calculatedStock": 20,
+    "efPlus": 20,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003734",
     "description": "QUIMIFOL IMPACTO - 5 L",
-    "stock": 545
+    "calculatedStock": 95,
+    "efPlus": 545,
+    "pcnrPlus": 0,
+    "pvneMinus": 210,
+    "cfPlus": 0,
+    "vfMinus": 240,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005856",
     "description": "QUIMIFOL IMPACTO VIDA - 5 L",
-    "stock": 150
+    "calculatedStock": 225,
+    "efPlus": 150,
+    "pcnrPlus": 300,
+    "pvneMinus": 225,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001950",
     "description": "QUIMIFOL K 40 - 25KG",
-    "stock": 10575
+    "calculatedStock": 6925,
+    "efPlus": 10575,
+    "pcnrPlus": 0,
+    "pvneMinus": 1800,
+    "cfPlus": 0,
+    "vfMinus": 1800,
+    "rdrMinus": 50,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002470",
     "description": "QUIMIFOL MAXIHUN SOLO L - 20 L",
-    "stock": 200
+    "calculatedStock": 200,
+    "efPlus": 200,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002468",
     "description": "QUIMIFOL MG 8 - 20 L",
-    "stock": 5240
+    "calculatedStock": 2100,
+    "efPlus": 5240,
+    "pcnrPlus": 0,
+    "pvneMinus": 1940,
+    "cfPlus": 0,
+    "vfMinus": 1200,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002779",
     "description": "QUIMIFOL P 30 W - 20 L",
-    "stock": 180
+    "calculatedStock": 180,
+    "efPlus": 180,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001954",
     "description": "QUIMIFOL PHFOS - 20 L",
-    "stock": 100
+    "calculatedStock": 100,
+    "efPlus": 100,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001955",
     "description": "QUIMIFOL PREMIUM - 5 L",
-    "stock": 300
+    "calculatedStock": 695,
+    "efPlus": 300,
+    "pcnrPlus": 720,
+    "pvneMinus": 325,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005043",
     "description": "QUIMIFOL S 450 - 5 L",
-    "stock": 275
+    "calculatedStock": 275,
+    "efPlus": 275,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001949",
     "description": "QUIMIFOL S 450 - 20 L",
-    "stock": 800
+    "calculatedStock": 800,
+    "efPlus": 800,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002783",
     "description": "QUIMIFOL TITANIUM S - 1 L",
-    "stock": 12
+    "calculatedStock": 12,
+    "efPlus": 12,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005893",
     "description": "QUIMIFOL TITANIUM S - 5 L",
-    "stock": 60
+    "calculatedStock": 60,
+    "efPlus": 60,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001952",
     "description": "QUIMIFOL TITANIUM S - 20 L",
-    "stock": 1040
+    "calculatedStock": 1040,
+    "efPlus": 1040,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003468",
     "description": "QUIMIFOL VIP CERRADO - 25 KG",
-    "stock": 7450
+    "calculatedStock": 475,
+    "efPlus": 7450,
+    "pcnrPlus": 0,
+    "pvneMinus": 6975,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005282",
     "description": "QUIMIFOL VIP MILHO - 25 KG",
-    "stock": 400
+    "calculatedStock": 0,
+    "efPlus": 400,
+    "pcnrPlus": 0,
+    "pvneMinus": 400,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001938",
     "description": "QUIMIORGEN 20N - 20 L",
-    "stock": 20
+    "calculatedStock": 1020,
+    "efPlus": 20,
+    "pcnrPlus": 1000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004913",
     "description": "RACUN GOPLAN - 5 L",
-    "stock": 100
+    "calculatedStock": 100,
+    "efPlus": 100,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004256",
     "description": "RAISOR (PICLORAM 240) - 5 L",
-    "stock": 0
+    "calculatedStock": 2000,
+    "efPlus": 0,
+    "pcnrPlus": 2000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004624",
     "description": "RAISOR (PICLORAM 240) - 20 L",
-    "stock": 660
+    "calculatedStock": 8640,
+    "efPlus": 660,
+    "pcnrPlus": 8000,
+    "pvneMinus": 20,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005295",
     "description": "RAPEL (ACEFATO) 750 G/KG - 18 KG",
-    "stock": 312
+    "calculatedStock": 312,
+    "efPlus": 312,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004635",
     "description": "RATEIO 200 SL (DIQUAT) - 20 L",
-    "stock": 1020
+    "calculatedStock": 20,
+    "efPlus": 1020,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 1000,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003865",
     "description": "RAYNITRO - 5 L",
-    "stock": 685
+    "calculatedStock": 665,
+    "efPlus": 685,
+    "pcnrPlus": 0,
+    "pvneMinus": 20,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005218",
     "description": "RAYNITRO + NI - 20 L",
-    "stock": 660
+    "calculatedStock": 540,
+    "efPlus": 660,
+    "pcnrPlus": 0,
+    "pvneMinus": 120,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005647",
     "description": "RAYNITRO MD - 10 L",
-    "stock": 200
+    "calculatedStock": 200,
+    "efPlus": 200,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005326",
     "description": "RAYNITRO MD - 20 L",
-    "stock": 20
+    "calculatedStock": 20,
+    "efPlus": 20,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005254",
     "description": "REATOR 360 CS (CLOMAZONA) - 20 L",
-    "stock": 7500
+    "calculatedStock": 6840,
+    "efPlus": 7500,
+    "pcnrPlus": 0,
+    "pvneMinus": 660,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004912",
     "description": "RIFF GOPLAN - 5 L",
-    "stock": 10
+    "calculatedStock": 10,
+    "efPlus": 10,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005791",
     "description": "ROFEN FULL EC 100 (LUFENURON) - 05 L",
-    "stock": 2170
+    "calculatedStock": 630,
+    "efPlus": 2170,
+    "pcnrPlus": 0,
+    "pvneMinus": 1540,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001447",
     "description": "SEED+ TS - 1 L",
-    "stock": 23
+    "calculatedStock": 23,
+    "efPlus": 23,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001201",
     "description": "SEED+ TS - 5 L",
-    "stock": 60
+    "calculatedStock": 60,
+    "efPlus": 60,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005880",
     "description": "SEIV (METOMINOSTROBINA+PROTIOCONAZOL) - 10L",
-    "stock": 0
+    "calculatedStock": 10,
+    "efPlus": 0,
+    "pcnrPlus": 100,
+    "pvneMinus": 90,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005636",
     "description": "SEM MILHO MG 540 PWU PONCHO BAG 3MI SEM",
-    "stock": 0
+    "calculatedStock": 0,
+    "efPlus": 0,
+    "pcnrPlus": 7,
+    "pvneMinus": 7,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005475",
     "description": "SEM MILHO MORGAN 535 VIP3 PONCHO",
-    "stock": 2
+    "calculatedStock": 2,
+    "efPlus": 2,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005270",
     "description": "SEM MILHO MORGAN 540 PWU PONCHO",
-    "stock": 331
+    "calculatedStock": 50,
+    "efPlus": 331,
+    "pcnrPlus": 0,
+    "pvneMinus": 281,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005345",
     "description": "SEM MILHO MORGAN 607 PWU CRUISER",
-    "stock": 1
+    "calculatedStock": 1,
+    "efPlus": 1,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004396",
     "description": "SEM MILHO MORGAN 607 PWU PONCHO",
-    "stock": 266
+    "calculatedStock": 96,
+    "efPlus": 266,
+    "pcnrPlus": 0,
+    "pvneMinus": 170,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004958",
     "description": "SEM MILHO MORGAN 616 PWU PONCHO",
-    "stock": 355
+    "calculatedStock": 208,
+    "efPlus": 355,
+    "pcnrPlus": 0,
+    "pvneMinus": 147,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005790",
     "description": "SEM MILHO MORGAN 655 PWU PONCHO",
-    "stock": 28
+    "calculatedStock": 6,
+    "efPlus": 28,
+    "pcnrPlus": 0,
+    "pvneMinus": 22,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005889",
     "description": "SEM MILHO MORGAN 655 PWU PONCHO (TRABALHO DE",
-    "stock": 25
+    "calculatedStock": 25,
+    "efPlus": 25,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005846",
     "description": "SEM SOJA A ROSSO 85K84 CE CRUZADA D50+LUM+NEM",
-    "stock": 0
+    "calculatedStock": 0,
+    "efPlus": 0,
+    "pcnrPlus": 9,
+    "pvneMinus": 9,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005797",
     "description": "SEM SOJA FAVA 828 I2X TSI/D - BAG 5 MI",
-    "stock": 0
+    "calculatedStock": 10,
+    "efPlus": 0,
+    "pcnrPlus": 10,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005902",
     "description": "SEM SOJA FAVA 2549859 CE - SC 200 MIL SEM",
-    "stock": 18
+    "calculatedStock": 18,
+    "efPlus": 18,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005897",
     "description": "SEM SOJA FAVA BSA76256I2X (767 TF I2X) - SC 2",
-    "stock": 17
+    "calculatedStock": 17,
+    "efPlus": 17,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005898",
     "description": "SEM SOJA FAVA C2705CE - SC 200 MIL SEM",
-    "stock": 20
+    "calculatedStock": 20,
+    "efPlus": 20,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003595",
     "description": "SEM SOJA FAVA NEO 790 IPRO- BAG 5 MI",
-    "stock": 0
+    "calculatedStock": -4,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": 4,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005375",
     "description": "SEM SOJA FAVA NEO700 I2X TSI/D - BAG 5 MI",
-    "stock": 0
+    "calculatedStock": 10,
+    "efPlus": 0,
+    "pcnrPlus": 10,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005899",
     "description": "SEM SOJA FAVA NEO751 CE - SC 200 MIL SEM",
-    "stock": 6
+    "calculatedStock": 6,
+    "efPlus": 6,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005900",
     "description": "SEM SOJA FAVA NEO791 CE - SC 200 MIL SEM",
-    "stock": 13
+    "calculatedStock": 13,
+    "efPlus": 13,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005765",
     "description": "SEM SOJA FAVA NEO791 CE TSI/D - BAG 5 MI",
-    "stock": 0
+    "calculatedStock": 8,
+    "efPlus": 0,
+    "pcnrPlus": 8,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005414",
     "description": "SEM SOJA FAVA NEO802 I2X TSI/D - BAG 5 MI",
-    "stock": 0
+    "calculatedStock": 18,
+    "efPlus": 0,
+    "pcnrPlus": 20,
+    "pvneMinus": 2,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005796",
     "description": "SEM SOJA FAVA NEO821 I2X TSI/D - BAG 5 MI",
-    "stock": 0
+    "calculatedStock": 10,
+    "efPlus": 0,
+    "pcnrPlus": 10,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005186",
     "description": "SEM SOJA FAVA O760 CE TSI/D - BAG 5 MI",
-    "stock": 0
+    "calculatedStock": 10,
+    "efPlus": 0,
+    "pcnrPlus": 10,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004032",
     "description": "SEM SOJA FAVA O790 IPRO TSI/D - BAG 5 MI",
-    "stock": 0
+    "calculatedStock": 77,
+    "efPlus": 0,
+    "pcnrPlus": 77,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005870",
     "description": "SEM SOJA FAVA O790 IPRO TSI/F60 - BAG 5MI",
-    "stock": 7
+    "calculatedStock": 1,
+    "efPlus": 7,
+    "pcnrPlus": 0,
+    "pvneMinus": 6,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005861",
     "description": "SEM SOJA FAVA O790 IPRO TSI/F60+CI - BAG 5 MI",
-    "stock": 0
+    "calculatedStock": 3,
+    "efPlus": 0,
+    "pcnrPlus": 3,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005795",
     "description": "SEM SOJA FAVA O790 IPRO TSI/FP - BAG 5 M",
-    "stock": 0
+    "calculatedStock": 16,
+    "efPlus": 0,
+    "pcnrPlus": 55,
+    "pvneMinus": 39,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005901",
     "description": "SEM SOJA FAVA SBB7836I2X - SC 200 MIL SEM",
-    "stock": 1
+    "calculatedStock": 1,
+    "efPlus": 1,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005701",
     "description": "SEM SOJA TRIUNFO 67I68RSF IPRO GUEPARDO - BAG",
-    "stock": 2
+    "calculatedStock": 0,
+    "efPlus": 2,
+    "pcnrPlus": 0,
+    "pvneMinus": 2,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005599",
     "description": "SEM SOJA TRIUNFO 74K76 RSF TORMENTA CE DERM 5",
-    "stock": 8
+    "calculatedStock": -5,
+    "efPlus": 8,
+    "pcnrPlus": 25,
+    "pvneMinus": 5,
+    "cfPlus": 0,
+    "vfMinus": 33,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005699",
     "description": "SEM SOJA TRIUNFO 74K76RSF CE TORMENTA - BAG 5",
-    "stock": 0
+    "calculatedStock": -22,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": 22,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005706",
     "description": "SEM SOJA TRIUNFO 79K82RSF CE MITICA - BAG 5MI",
-    "stock": 0
+    "calculatedStock": -6,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": 6,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005707",
     "description": "SEM SOJA TRIUNFO 79K82RSF CE MITICA DERM - BA",
-    "stock": 0
+    "calculatedStock": -3,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": 3,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005434",
     "description": "SEM SOJA TRIUNFO 80I82 RSF IPRO OLIMPO BAG 5M",
-    "stock": 7
+    "calculatedStock": 0,
+    "efPlus": 7,
+    "pcnrPlus": 0,
+    "pvneMinus": 7,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005572",
     "description": "SEM SOJA TRIUNFO 80I82 RSF IPRO OLIMPO D50+LU",
-    "stock": 3
+    "calculatedStock": 0,
+    "efPlus": 3,
+    "pcnrPlus": 27,
+    "pvneMinus": 30,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005435",
     "description": "SEM SOJA TRIUNFO 80I82 RSF IPRO OLIMPO DERM 5",
-    "stock": 7
+    "calculatedStock": 9,
+    "efPlus": 7,
+    "pcnrPlus": 84,
+    "pvneMinus": 19,
+    "cfPlus": 0,
+    "vfMinus": 63,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005737",
     "description": "SEM SOJA TRIUNFO 85K84RSF CE CRUZADA DERM - B",
-    "stock": 0
+    "calculatedStock": 14,
+    "efPlus": 0,
+    "pcnrPlus": 14,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005878",
     "description": "SEM SOJA TRIUNFO NEO820 IPRO DERM 50 - BAG 5",
-    "stock": 0
+    "calculatedStock": 8,
+    "efPlus": 0,
+    "pcnrPlus": 8,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005713",
     "description": "SEM SOJA TRIUNFO ST 78KA42 CE DERM - BAG 5MI",
-    "stock": 0
+    "calculatedStock": 0,
+    "efPlus": 0,
+    "pcnrPlus": 3,
+    "pvneMinus": 3,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002233",
     "description": "SEM SORGO BRS 310 - SC 500 MIL SEM",
-    "stock": 9
+    "calculatedStock": 9,
+    "efPlus": 9,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "99999975",
     "description": "SEM SORGO KWS K200 - SC 500 MIL SEM",
-    "stock": 0
+    "calculatedStock": 2,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": -2,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005336",
     "description": "SEM SORGO MORGAN MG2220 (CRUISER+MAXIM+ BENEF",
-    "stock": 0
+    "calculatedStock": -24,
+    "efPlus": 0,
+    "pcnrPlus": 0,
+    "pvneMinus": 24,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005852",
     "description": "SHARK (CLORPIRIF0S) 480 EC - 20L",
-    "stock": 0
+    "calculatedStock": 0,
+    "efPlus": 0,
+    "pcnrPlus": 2000,
+    "pvneMinus": 2000,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004965",
     "description": "SHELBY GOPLAN - 05 L",
-    "stock": 50
+    "calculatedStock": 965,
+    "efPlus": 50,
+    "pcnrPlus": 1000,
+    "pvneMinus": 85,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005217",
     "description": "SILO BOLSA AGROTUBE 9X60 126KG",
-    "stock": 5
+    "calculatedStock": 5,
+    "efPlus": 5,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004948",
     "description": "SIMANTO (SCUDERO ULTRA) - 5 L",
-    "stock": 5420
+    "calculatedStock": 2965,
+    "efPlus": 5420,
+    "pcnrPlus": 0,
+    "pvneMinus": 2455,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005469",
     "description": "SKYMOBIL GOPLAN - 5 L",
-    "stock": 40
+    "calculatedStock": 40,
+    "efPlus": 40,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004765",
     "description": "SONDA HT- 20 L",
-    "stock": 1440
+    "calculatedStock": 1440,
+    "efPlus": 1440,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002082",
     "description": "SOYSIXX - 20 L",
-    "stock": 20
+    "calculatedStock": 20,
+    "efPlus": 20,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005918",
     "description": "SPHERE NEO SC634 - 20 L",
-    "stock": 0
+    "calculatedStock": 1000,
+    "efPlus": 0,
+    "pcnrPlus": 1000,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004966",
     "description": "SPIDER 840 WG - PCT 0,42 KG",
-    "stock": 61.74
+    "calculatedStock": 57.12,
+    "efPlus": 61.74,
+    "pcnrPlus": 0,
+    "pvneMinus": 4.62,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003779",
     "description": "STIMUCONTROL - 2 L",
-    "stock": 10
+    "calculatedStock": 10,
+    "efPlus": 10,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001261",
     "description": "STONE 525SC - 5 L",
-    "stock": 200
+    "calculatedStock": 200,
+    "efPlus": 200,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005761",
     "description": "SULBAN (CLORIMUROM) 250 WG - 2 KG",
-    "stock": 246
+    "calculatedStock": 122,
+    "efPlus": 246,
+    "pcnrPlus": 0,
+    "pvneMinus": 124,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002046",
     "description": "SUPA COMPLETE - 1 L",
-    "stock": 345
+    "calculatedStock": 345,
+    "efPlus": 345,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002047",
     "description": "SUPA COMPLETE - 5 L",
-    "stock": 665
+    "calculatedStock": 665,
+    "efPlus": 665,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0002590",
     "description": "SUPA COMPLETE - 12,5 L",
-    "stock": 275
+    "calculatedStock": 275,
+    "efPlus": 275,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000258",
     "description": "SUPA MOLY - 1 L",
-    "stock": 60
+    "calculatedStock": 0,
+    "efPlus": 60,
+    "pcnrPlus": 0,
+    "pvneMinus": 60,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0000155",
     "description": "SUPA MOLY - 5 L",
-    "stock": 20
+    "calculatedStock": 0,
+    "efPlus": 20,
+    "pcnrPlus": 0,
+    "pvneMinus": 20,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004964",
     "description": "SYSCO ULTRA GOPLAN - 05 L",
-    "stock": 575
+    "calculatedStock": 525,
+    "efPlus": 575,
+    "pcnrPlus": 500,
+    "pvneMinus": 550,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "99999995",
     "description": "TALISMAN 200 EC - 5 L",
-    "stock": 12580
+    "calculatedStock": 9795,
+    "efPlus": 12580,
+    "pcnrPlus": 0,
+    "pvneMinus": 2785,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001187",
     "description": "TALISMAN 200 EC - 20 L",
-    "stock": 500
+    "calculatedStock": 240,
+    "efPlus": 500,
+    "pcnrPlus": 0,
+    "pvneMinus": 260,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005312",
     "description": "TALSTAR 400 EC (BIFENTRINA) - 5 L",
-    "stock": 5
+    "calculatedStock": 115,
+    "efPlus": 5,
+    "pcnrPlus": 0,
+    "pvneMinus": 690,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 800,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005212",
     "description": "TARGA MAX HT - 5 L",
-    "stock": 830
+    "calculatedStock": 805,
+    "efPlus": 830,
+    "pcnrPlus": 0,
+    "pvneMinus": 25,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005470",
     "description": "TARSSUS GOPLAN 5L",
-    "stock": 10
+    "calculatedStock": 10,
+    "efPlus": 10,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004763",
     "description": "TERMINUS - 10 L",
-    "stock": 1500
+    "calculatedStock": 240,
+    "efPlus": 1500,
+    "pcnrPlus": 0,
+    "pvneMinus": 1260,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005304",
     "description": "TERRAD´OR 339 SC - 20 L",
-    "stock": 40
+    "calculatedStock": 200,
+    "efPlus": 40,
+    "pcnrPlus": 160,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005571",
     "description": "THERNO GOPLAN - 1 L",
-    "stock": 5
+    "calculatedStock": 5,
+    "efPlus": 5,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005783",
     "description": "THERNO GOPLAN - 5 L",
-    "stock": 50
+    "calculatedStock": -45,
+    "efPlus": 50,
+    "pcnrPlus": 0,
+    "pvneMinus": 95,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004209",
     "description": "TONUS - 3 KG",
-    "stock": 2433
+    "calculatedStock": 591,
+    "efPlus": 2433,
+    "pcnrPlus": 0,
+    "pvneMinus": 1842,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004254",
     "description": "TOPINAM (TRICLOPIR)- 20 L",
-    "stock": 1620
+    "calculatedStock": 15580,
+    "efPlus": 1620,
+    "pcnrPlus": 14000,
+    "pvneMinus": 40,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005865",
     "description": "TOPMIX EVOLUTION 00-24-00 YARA - BAG 1.000 KG",
-    "stock": 0
+    "calculatedStock": 0,
+    "efPlus": 0,
+    "pcnrPlus": 565,
+    "pvneMinus": 565,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003465",
     "description": "TOPPO - 20 L",
-    "stock": 140
+    "calculatedStock": 140,
+    "efPlus": 140,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005814",
     "description": "TOUCHE GOPLAN - 20 L",
-    "stock": 1380
+    "calculatedStock": 780,
+    "efPlus": 1380,
+    "pcnrPlus": 0,
+    "pvneMinus": 600,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001959",
     "description": "TQ CLEAR - 1 L",
-    "stock": 86
+    "calculatedStock": 86,
+    "efPlus": 86,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004215",
     "description": "TRANSLOK - 10 KG",
-    "stock": 5170
+    "calculatedStock": 7470,
+    "efPlus": 5170,
+    "pcnrPlus": 12000,
+    "pvneMinus": 9700,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005881",
     "description": "TRANSLOK AIR - 25 L",
-    "stock": 2000
+    "calculatedStock": 4350,
+    "efPlus": 2000,
+    "pcnrPlus": 2500,
+    "pvneMinus": 150,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005241",
     "description": "TRIPLUS ANUAIS - 5 L",
-    "stock": 10
+    "calculatedStock": 10,
+    "efPlus": 10,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005174",
     "description": "TRISHUL (ACEFATO) 750 G/KG - 5KG",
-    "stock": 20
+    "calculatedStock": 10,
+    "efPlus": 20,
+    "pcnrPlus": 0,
+    "pvneMinus": 10,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003428",
     "description": "TRIVOR - 5 L",
-    "stock": 5
+    "calculatedStock": 5,
+    "efPlus": 5,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005842",
     "description": "TRIZEB (MANCOZEB LÍQUIDO) - 10 L",
-    "stock": 0
+    "calculatedStock": 1050,
+    "efPlus": 0,
+    "pcnrPlus": 10500,
+    "pvneMinus": 6950,
+    "cfPlus": 0,
+    "vfMinus": 2500,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005834",
     "description": "TRYTOR (TRICLOPIR 480G) - 5 L",
-    "stock": 900
+    "calculatedStock": 1000,
+    "efPlus": 900,
+    "pcnrPlus": 100,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005663",
     "description": "TRYTOR (TRICLOPIR 480G) - 20 L",
-    "stock": 5000
+    "calculatedStock": 5000,
+    "efPlus": 5000,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003729",
     "description": "TWIXX A - 20 L",
-    "stock": 280
+    "calculatedStock": 280,
+    "efPlus": 280,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004992",
     "description": "UP! SEEDS RN - 5 L",
-    "stock": 255
+    "calculatedStock": 75,
+    "efPlus": 255,
+    "pcnrPlus": 0,
+    "pvneMinus": 180,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005048",
     "description": "UTRISHA N - PCT 5KG",
-    "stock": 480
+    "calculatedStock": 480,
+    "efPlus": 480,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005362",
     "description": "VALLEX (PIRIPROXIFEM) - 5L",
-    "stock": 0
+    "calculatedStock": 1155,
+    "efPlus": 0,
+    "pcnrPlus": 5080,
+    "pvneMinus": 3925,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005912",
     "description": "VERANGO PRIME - 5 L",
-    "stock": 0
+    "calculatedStock": 260,
+    "efPlus": 0,
+    "pcnrPlus": 260,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001436",
     "description": "VERDICT MAX - 5 L",
-    "stock": 310
+    "calculatedStock": 310,
+    "efPlus": 310,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005443",
     "description": "VERDICT ULTRA - 5 L",
-    "stock": 1500
+    "calculatedStock": 365,
+    "efPlus": 1500,
+    "pcnrPlus": 0,
+    "pvneMinus": 1135,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001173",
     "description": "VESSARYA NEW - 10 L",
-    "stock": 5780
+    "calculatedStock": -110,
+    "efPlus": 5780,
+    "pcnrPlus": 0,
+    "pvneMinus": 5880,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 10,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004786",
     "description": "VEZIR (IMAZETAPIR) - 20 L",
-    "stock": 1760
+    "calculatedStock": 760,
+    "efPlus": 1760,
+    "pcnrPlus": 2020,
+    "pvneMinus": 3020,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001406",
     "description": "VIANCE 240 EC (CLETODIM) - 20 L",
-    "stock": 0
+    "calculatedStock": 7120,
+    "efPlus": 0,
+    "pcnrPlus": 11000,
+    "pvneMinus": 3880,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0003460",
     "description": "VIOVAN - 10 L",
-    "stock": 1430
+    "calculatedStock": 510,
+    "efPlus": 1430,
+    "pcnrPlus": 0,
+    "pvneMinus": 140,
+    "cfPlus": 0,
+    "vfMinus": 520,
+    "rdrMinus": 260,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004756",
     "description": "VOLGA (PROFIX ) - 1KG",
-    "stock": 194
+    "calculatedStock": 194,
+    "efPlus": 194,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005570",
     "description": "WANDA GOPLAN - 5 L",
-    "stock": 805
+    "calculatedStock": 285,
+    "efPlus": 805,
+    "pcnrPlus": 0,
+    "pvneMinus": 520,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005672",
     "description": "WEXITE (ACEFATO) 970G/KG - 5KG",
-    "stock": 7335
+    "calculatedStock": 1895,
+    "efPlus": 7335,
+    "pcnrPlus": 0,
+    "pvneMinus": 5440,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005925",
     "description": "WIDCLEAR (FLUROXIPIR) - 20 L",
-    "stock": 0
+    "calculatedStock": 100,
+    "efPlus": 0,
+    "pcnrPlus": 100,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005662",
     "description": "XENON (PICLORAM 80 + FLUROXIPIR 80) - 20 L",
-    "stock": 4940
+    "calculatedStock": 4940,
+    "efPlus": 4940,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0001264",
     "description": "YANTRA - 12,5 L",
-    "stock": 100
+    "calculatedStock": 0,
+    "efPlus": 100,
+    "pcnrPlus": 0,
+    "pvneMinus": 100,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005588",
     "description": "YARAAMPLIX BR BIOTRAC - 10 L",
-    "stock": 0
+    "calculatedStock": 500,
+    "efPlus": 0,
+    "pcnrPlus": 500,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005829",
     "description": "YARABASA EXTRAFORCE 04-38-00 YARA - BAG 1.000",
-    "stock": 0
+    "calculatedStock": 2,
+    "efPlus": 0,
+    "pcnrPlus": 2,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005749",
     "description": "ZARPAL (LUFENUROM 140G + BIFENTRINA 120G) - 2",
-    "stock": 0
+    "calculatedStock": 400,
+    "efPlus": 0,
+    "pcnrPlus": 500,
+    "pvneMinus": 100,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0004843",
     "description": "ZIGNAL - 5 L",
-    "stock": 20
+    "calculatedStock": 20,
+    "efPlus": 20,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005680",
     "description": "ZINCO 43 SC GOPLAN - 10 L",
-    "stock": 170
+    "calculatedStock": 170,
+    "efPlus": 170,
+    "pcnrPlus": 0,
+    "pvneMinus": 0,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   },
   {
     "code": "0005557",
     "description": "ZOSPOT GOPLAN - 3 L",
-    "stock": 381
+    "calculatedStock": 192,
+    "efPlus": 381,
+    "pcnrPlus": 0,
+    "pvneMinus": 189,
+    "cfPlus": 0,
+    "vfMinus": 0,
+    "rdrMinus": 0,
+    "rdePlus": 0,
+    "caPlus": 0,
+    "vaMinus": 0
   }
 ]

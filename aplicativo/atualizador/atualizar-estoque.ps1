@@ -78,22 +78,26 @@ function Analyze-Spreadsheet {
         $summaryLines += ''
         $summaryLines += ('ITENS INCLUÍDOS ({0})' -f $script:Preview.counts.added)
         foreach ($item in @($script:Preview.details.added)) {
-            $stock = [string]::Format($culture, '{0:N2}', [decimal]$item.stock)
+            $stock = [string]::Format($culture, '{0:N2}', [decimal]$item.pcnrPlus)
             $summaryLines += ('  + [{0}] {1}' -f $item.code, $item.description)
-            $summaryLines += ('      Estoque incluído: {0}' -f $stock)
+            $summaryLines += ('      PCNR(+) incluído: {0}' -f $stock)
         }
     }
     if ($script:Preview.counts.changed -gt 0) {
         $summaryLines += ''
         $summaryLines += ('ITENS ALTERADOS ({0})' -f $script:Preview.counts.changed)
         foreach ($item in @($script:Preview.details.changed)) {
-            $stockBefore = [string]::Format($culture, '{0:N2}', [decimal]$item.stockBefore)
-            $stockAfter = [string]::Format($culture, '{0:N2}', [decimal]$item.stockAfter)
-            $stockDifference = [string]::Format($culture, '{0:+0.00;-0.00;0.00}', [decimal]$item.stockDifference)
             $summaryLines += ('  ~ [{0}] {1}' -f $item.code, $item.descriptionAfter)
-            $summaryLines += ('      Estoque: {0} -> {1}  (diferença: {2})' -f $stockBefore, $stockAfter, $stockDifference)
-            if ($item.descriptionBefore -ne $item.descriptionAfter) {
-                $summaryLines += ('      Descrição anterior: {0}' -f $item.descriptionBefore)
+            foreach ($change in @($item.changes)) {
+                if ($change.field -eq 'description') {
+                    $summaryLines += ('      Descrição: {0} -> {1}' -f $change.before, $change.after)
+                }
+                else {
+                    $valueBefore = [string]::Format($culture, '{0:N2}', [decimal]$change.before)
+                    $valueAfter = [string]::Format($culture, '{0:N2}', [decimal]$change.after)
+                    $difference = [string]::Format($culture, '{0:+0.00;-0.00;0.00}', [decimal]$change.difference)
+                    $summaryLines += ('      {0}: {1} -> {2}  (diferença: {3})' -f $change.label, $valueBefore, $valueAfter, $difference)
+                }
             }
         }
     }
@@ -101,9 +105,10 @@ function Analyze-Spreadsheet {
         $summaryLines += ''
         $summaryLines += ('ITENS REMOVIDOS ({0})' -f $script:Preview.counts.removed)
         foreach ($item in @($script:Preview.details.removed)) {
-            $stock = [string]::Format($culture, '{0:N2}', [decimal]$item.stock)
+            $stockValue = if ($null -ne $item.pcnrPlus) { $item.pcnrPlus } else { $item.stock }
+            $stock = [string]::Format($culture, '{0:N2}', [decimal]$stockValue)
             $summaryLines += ('  - [{0}] {1}' -f $item.code, $item.description)
-            $summaryLines += ('      Estoque anterior: {0}' -f $stock)
+            $summaryLines += ('      PCNR(+) anterior: {0}' -f $stock)
         }
     }
     $summary.Text = [string]::Join($lineBreak, $summaryLines)
