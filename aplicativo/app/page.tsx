@@ -36,8 +36,8 @@ const filters: Array<{ id: Filter; label: string }> = [
 ];
 const metricColumns: Array<{ key: MetricKey; label: string; primary?: boolean }> = [
   { key: "calculatedStock", label: "Estoque calculado" },
-  { key: "efPlus", label: "EF(+)" },
-  { key: "pcnrPlus", label: "PCNR(+)", primary: true },
+  { key: "efPlus", label: "EF(+)", primary: true },
+  { key: "pcnrPlus", label: "PCNR(+)" },
   { key: "pvneMinus", label: "PVNE(-)" },
   { key: "cfPlus", label: "CF(+)" },
   { key: "vfMinus", label: "VF(-)" },
@@ -277,8 +277,8 @@ export default function Home() {
             <article className="product-card" key={item.code}>
               <div className="product-card-heading">
                 <span className="code">{item.code}</span>
-                <strong className={item.pcnrPlus < 0 ? "negative" : item.pcnrPlus === 0 ? "zero" : "positive"}>
-                  PCNR(+) {formatStock(item.pcnrPlus)}
+                <strong className={item.efPlus < 0 ? "negative" : item.efPlus === 0 ? "zero" : "positive"}>
+                  EF(+) {formatStock(item.efPlus)}
                 </strong>
               </div>
               <h2>{item.description}</h2>
