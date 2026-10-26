@@ -20,6 +20,7 @@ type Product = {
 
 type MetricKey = Exclude<keyof Product, "code" | "description" | "supplier">;
 type Situation = "all" | "positive" | "zero" | "negative";
+type BalanceMetric = "calculatedStock" | "efPlus" | "pcnrPlus" | "pvneMinus";
 type InstallPromptEvent = Event & {
   prompt: () => Promise<void>;
   userChoice: Promise<{ outcome: "accepted" | "dismissed" }>;
@@ -40,6 +41,12 @@ const metricColumns: Array<{ key: MetricKey; label: string; primary?: boolean }>
   { key: "rdePlus", label: "RDE(+)" },
   { key: "caPlus", label: "CA(+)" },
   { key: "vaMinus", label: "VA(-)" },
+];
+const balanceMetricOptions: Array<{ key: BalanceMetric; label: string }> = [
+  { key: "calculatedStock", label: "Estoque Calculado" },
+  { key: "efPlus", label: "EF(+)" },
+  { key: "pcnrPlus", label: "PCNR(+)" },
+  { key: "pvneMinus", label: "PVNE(-)" },
 ];
 const assetUrl = (name: string) => `${import.meta.env.BASE_URL}${name}`;
 
@@ -65,6 +72,7 @@ function statusFor(value: number) {
 
 export default function Home() {
   const [query, setQuery] = useState("");
+  const [balanceMetric, setBalanceMetric] = useState<BalanceMetric>("pcnrPlus");
   const [situation, setSituation] = useState<Situation>("all");
   const [selectedSupplier, setSelectedSupplier] = useState("all");
   const [page, setPage] = useState(1);
@@ -103,18 +111,19 @@ export default function Home() {
   const filtered = useMemo(() => {
     const search = normalize(query.trim());
     return products.filter((item) => {
+      const balance = item[balanceMetric];
       const matchesSearch = !search || normalize(`${item.code} ${item.description} ${item.supplier}`).includes(search);
       const matchesSituation =
         situation === "all" ||
-        (situation === "positive" && item.pcnrPlus > 0) ||
-        (situation === "zero" && item.pcnrPlus === 0) ||
-        (situation === "negative" && item.pcnrPlus < 0);
+        (situation === "positive" && balance > 0) ||
+        (situation === "zero" && balance === 0) ||
+        (situation === "negative" && balance < 0);
       const matchesSupplier = selectedSupplier === "all" || item.supplier === selectedSupplier;
       return matchesSearch && matchesSituation && matchesSupplier;
     });
-  }, [query, situation, selectedSupplier]);
+  }, [query, balanceMetric, situation, selectedSupplier]);
 
-  useEffect(() => setPage(1), [query, situation, selectedSupplier, pageSize]);
+  useEffect(() => setPage(1), [query, balanceMetric, situation, selectedSupplier, pageSize]);
 
   const pageCount = Math.max(1, Math.ceil(filtered.length / pageSize));
   const safePage = Math.min(page, pageCount);
@@ -126,6 +135,7 @@ export default function Home() {
 
   function clearFilters() {
     setQuery("");
+    setBalanceMetric("pcnrPlus");
     setSituation("all");
     setSelectedSupplier("all");
   }
@@ -185,20 +195,21 @@ export default function Home() {
           <span aria-hidden="true">⌕</span>
           <input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Buscar por código, descrição ou fornecedor..." />
         </label>
+        <label className="filter-field"><span>Coluna de estoque</span><select value={balanceMetric} onChange={(event) => setBalanceMetric(event.target.value as BalanceMetric)}>{balanceMetricOptions.map((metric) => <option key={metric.key} value={metric.key}>{metric.label}</option>)}</select></label>
         <label className="filter-field"><span>Situação</span><select value={situation} onChange={(event) => setSituation(event.target.value as Situation)}><option value="all">Todos</option><option value="positive">Com saldo</option><option value="zero">Zerados</option><option value="negative">Negativos</option></select></label>
         <label className="filter-field supplier-field"><span>Fornecedor</span><select value={selectedSupplier} onChange={(event) => setSelectedSupplier(event.target.value)}><option value="all">Todos</option>{supplierOptions.map((supplier) => <option key={supplier} value={supplier}>{supplier}</option>)}</select></label>
         <button className="clear-button" type="button" onClick={clearFilters}>Limpar filtros</button>
       </section>
 
       <section className="results-panel">
-        <div className="results-header"><p><strong>{filtered.length}</strong> {filtered.length === 1 ? "produto encontrado" : "produtos encontrados"}</p><span>EF(+) em destaque</span></div>
+        <div className="results-header"><p><strong>{filtered.length}</strong> {filtered.length === 1 ? "produto encontrado" : "produtos encontrados"}</p><span>Filtro de saldo: {balanceMetricOptions.find((metric) => metric.key === balanceMetric)?.label} · EF(+) em destaque</span></div>
 
         <div className="table-shell desktop-products">
           <table className="inventory-table">
             <thead><tr><th>Código</th><th>Descrição</th><th>Fornecedor</th>{metricColumns.map((metric) => <th key={metric.key} className={metric.primary ? "primary-metric" : ""}>{metric.label}</th>)}<th>Situação</th></tr></thead>
             <tbody>
               {shown.map((item) => {
-                const status = statusFor(item.pcnrPlus);
+                const status = statusFor(item[balanceMetric]);
                 return <tr key={item.code}><td><span className="code">{item.code}</span></td><td>{item.description}</td><td className="supplier-cell">{item.supplier}</td>{metricColumns.map((metric) => { const value = item[metric.key]; return <td key={metric.key} className={`stock ${metric.primary ? "primary-metric" : ""} ${value < 0 ? "negative" : value === 0 ? "zero" : "positive"}`}>{formatStock(value)}</td>; })}<td><span className={`status-badge ${status.className}`}>{status.label}</span></td></tr>;
               })}
             </tbody>
@@ -207,7 +218,7 @@ export default function Home() {
         </div>
 
         <div className="mobile-products">
-          {shown.map((item) => { const status = statusFor(item.pcnrPlus); return <article className="product-card" key={item.code}><div className="product-card-heading"><span className="code">{item.code}</span><span className={`status-badge ${status.className}`}>{status.label}</span></div><h2>{item.description}</h2><p>{item.supplier}</p><dl>{metricColumns.map((metric) => <div key={metric.key} className={metric.primary ? "primary-metric" : ""}><dt>{metric.label}</dt><dd>{formatStock(item[metric.key])}</dd></div>)}</dl></article>; })}
+          {shown.map((item) => { const status = statusFor(item[balanceMetric]); return <article className="product-card" key={item.code}><div className="product-card-heading"><span className="code">{item.code}</span><span className={`status-badge ${status.className}`}>{status.label}</span></div><h2>{item.description}</h2><p>{item.supplier}</p><dl>{metricColumns.map((metric) => <div key={metric.key} className={metric.primary ? "primary-metric" : ""}><dt>{metric.label}</dt><dd>{formatStock(item[metric.key])}</dd></div>)}</dl></article>; })}
           {!shown.length && <div className="empty"><strong>Nenhum produto encontrado.</strong><span>Altere os filtros e tente novamente.</span></div>}
         </div>
 
